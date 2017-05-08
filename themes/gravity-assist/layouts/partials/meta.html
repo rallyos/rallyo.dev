@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  {{ if eq .Section "" }}
+  <title>{{ .Title }}</title>
+  {{ else }}
+  <title>{{ .Site.Title }} | {{ .Title }}</title>
+  {{ end }}
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i" rel="stylesheet">
+  <link rel="stylesheet" href="/css/main.css">
+</head>

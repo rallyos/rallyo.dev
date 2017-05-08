@@ -1,0 +1,5 @@
+<section class="about">
+  {{ range $.Site.Data }}
+      {{ partial "bites.html" . }}
+  {{ end  }}
+</section>

@@ -1,0 +1,37 @@
+{
+    "bites": [
+        {
+            "title": "I've built things with:",
+            "subtitle": "Python / Ruby / Go / Swift / JavaScript"
+        },
+        {
+            "title": "Released projects named:",
+            "subtitle": "xkcd thingy / bookmarko / simplexpenses",
+            "links": [
+                { "name": "xkcd thingy", "url": "" },
+                { "name": "bookmarko", "url": "http://bookmarkoapp.com" },
+                { "name": "simplexpenses", "url": "http://simplepenses.herokuapp.com" }
+            ]
+        },
+        {
+            "title": "Use tools like:",
+            "subtitle": "MAC OS X / vim / Sublime Text"
+        },
+        {
+            "title": "Used great open source:",
+            "subtitle": "Django / Bottle.py / Ruby on Rails / React & React Native / Backbone.js / Angular"
+        },
+        {
+            "title": "Have interest in:",
+            "subtitle": "AI / Space Exploration / Rocketry"
+        },
+        {
+            "title": "Live in:",
+            "subtitle": "Sofia / Burgas / Bulgaria / Earth"
+        },
+        {
+            "title": "Can be found on:",
+            "subtitle": "Twitter / Last.fm / Medium"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+<header class="header">
+  <nav>
+    <ul class="nav-list">
+      <li class="nav-list-item"><a class="nav-list-item-link home" href="/">~</a></li>
+      <li class="nav-list-item">&nbsp;/ <a class="nav-list-item-link" style="text-decoration: line-through;" href="#">space</a></li>
+      <li class="nav-list-item">&nbsp;/ <a class="nav-list-item-link" style="text-decoration: line-through;" href="#">couch</a></li>
+    </ul>
+  </nav>
+  <div class="day-night-block">
+    <span class="circle toggle-night"></span>
+    <span class="circle-separator">/</span>
+    <span class="circle toggle-day"></span>
+  </div>
+  {{ if eq .Section "" }}
+  <h1 class="header-title">Dimitar Ralev</h1>
+  {{ end }}
+</header>
