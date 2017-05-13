@@ -1,7 +1,7 @@
 body {
   font-family: 'Lora', serif;
-  background: #000;
   color: #fff;
+  margin: 0;
 }
 ul {
   list-style: none;
@@ -10,6 +10,23 @@ ul {
 }
 a {
   text-decoration: none;
+}
+.wrapper {
+  padding-bottom: 20px;
+  transition: 0.5s;
+}
+.day {
+  background: #fff;
+  color: #343534;
+}
+.day a {
+  color: #343534;
+}
+.night {
+  background: #000;
+  color: #fff;
+}
+.night a {
   color: #fff;
 }
 a:hover {
@@ -33,7 +50,6 @@ a:hover {
   font-size: 2em;
 }
 .nav-list-item-link {
-  color: #fff;
   text-decoration: none;
   cursor: pointer;
 }
@@ -100,6 +116,15 @@ a:hover {
 .featured-article-link:hover {
   text-decoration: underline;
 }
+.more-posts-box {
+  width: 100%;
+  font-size: 4em;
+  font-family: monospace;
+  text-align: center;
+}
+.more-posts-box a {
+  text-decoration: none;
+}
 .about {
 
 }
@@ -141,6 +166,9 @@ a:hover {
 .content-wrap a {
   color: #D45C41;
 }
+.read-more-link {
+  text-decoration: underline;
+}
 .post-header {
   display: inline-block;
   margin-bottom: 40px;
@@ -149,7 +177,24 @@ a:hover {
   max-width: 100%;
 }
 
+.list-posts-box {
+  margin: 40px 0;
+}
+.list-posts-item {
+  text-align: center;
+}
+.list-posts-item-summary {
+  margin: 25px 0;
+}
+.list-posts-item-title {
+  margin-bottom: 0;
+}
+.list-posts-item-date {
+  margin-top: 5px;
+}
+
 footer {
+  margin-top: 40px;
   text-align: center;
 }
 .earth {
@@ -164,4 +209,52 @@ footer {
 ::selection {
   background: rgba(204, 63, 32, 0.85);
   color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .info-bites-list {
+    width: 90%;
+  }
+  .info-bites-list-item {
+    width: 45%;
+    margin: 0 0 50px;
+  }
+  .info-bites-list-item:first-child {
+    padding-left: 20%;
+  }
+  .featured {
+    width: 96%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  nav {
+    padding-top: 60px;
+  }
+  .day-night-block {
+    display: flex;
+    left: 50%;
+    justify-content: center;
+    transform: translate(-50%, 0);
+  }
+  .circle {
+    width: 36px;
+    height: 36px;
+  }
+  .circle-separator {
+    font-size: 2em;
+    line-height: 36px;
+  }
+  .info-bites-list-item {
+    width: 90%;
+  }
+  .info-bites-list-item:first-child {
+    padding-left: 0;
+  }
+  .featured {
+    width: 96%;
+  }
+  .featured-article-box {
+    width: 100%;
+  }
 }
