@@ -1,0 +1,260 @@
+body {
+  font-family: 'Lora', serif;
+  color: #fff;
+  margin: 0;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+.wrapper {
+  padding-bottom: 20px;
+  transition: 0.5s;
+}
+.day {
+  background: #fff;
+  color: #343534;
+}
+.day a {
+  color: #343534;
+}
+.night {
+  background: #000;
+  color: #fff;
+}
+.night a {
+  color: #fff;
+}
+a:hover {
+  text-decoration: underline;
+  color: #D45C41;
+}
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.header-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+.nav-list {
+  display: inline-block;
+}
+.nav-list-item {
+  float: left;
+  font-size: 2em;
+}
+.nav-list-item-link {
+  text-decoration: none;
+  cursor: pointer;
+}
+.nav-list-item-link.home {
+  font-size: 2em;
+  line-height: 40px;
+}
+.nav-list-item-link:hover {
+  text-decoration: overline;
+  color: #D45C41;
+}
+.day-night-block {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+.circle {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background: #fff;
+  float: left;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+.toggle-night {
+  background: #000;
+  border: solid 2px #fff;
+}
+.toggle-day {
+  background: #fff;
+  border: solid 2px #000;
+}
+.circle-separator {
+	float: left;
+	font-size: 3em;
+	line-height: 40px;
+  margin: 0 10px;
+  color: #D45C41;
+}
+.featured {
+  width: 88%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.featured-article-box:first-child {
+  width: 100%;
+  text-align: center;
+}
+.featured-article-box {
+  width: 46%;
+  margin: 20px 0;
+  line-height: 1.3em;
+  word-spacing: 2px;
+}
+.featured-article-link {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+.featured-article-link:hover {
+  text-decoration: underline;
+}
+.more-posts-box {
+  width: 100%;
+  font-size: 4em;
+  font-family: monospace;
+  text-align: center;
+}
+.more-posts-box a {
+  text-decoration: none;
+}
+.about {
+
+}
+.info-bites-list {
+  width: 88%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+.info-bites-list-item {
+  width: 20%;
+  margin: 0 5% 50px;
+}
+.info-bites-list-item:first-child {
+  width: 90%;
+  padding-left: 35%;
+}
+.info-bite-box {
+  margin: 0 auto;
+}
+.info-bite-title {
+  display: block;
+}
+.info-bite-subtitle {
+  display: block;
+  padding-left: 20px;
+}
+
+.content-wrap {
+  max-width: 1080px;
+  width: 90%;
+  margin: 0 auto;
+  line-height: 1.3em;
+  word-spacing: 2px;
+}
+.content-wrap a {
+  color: #D45C41;
+}
+.read-more-link {
+  text-decoration: underline;
+}
+.post-header {
+  display: inline-block;
+  margin-bottom: 40px;
+}
+#content img {
+  max-width: 100%;
+}
+
+.list-posts-box {
+  margin: 40px 0;
+}
+.list-posts-item {
+  text-align: center;
+}
+.list-posts-item-summary {
+  margin: 25px 0;
+}
+.list-posts-item-title {
+  margin-bottom: 0;
+}
+.list-posts-item-date {
+  margin-top: 5px;
+}
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+}
+.earth {
+  display: block;
+  width: 12px;
+  height: 12px;
+  border: solid 28px #1300ED;
+  background: #435B1D;
+  margin: 0 auto;
+  border-radius: 40px;
+}
+::selection {
+  background: rgba(204, 63, 32, 0.85);
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .info-bites-list {
+    width: 90%;
+  }
+  .info-bites-list-item {
+    width: 45%;
+    margin: 0 0 50px;
+  }
+  .info-bites-list-item:first-child {
+    padding-left: 20%;
+  }
+  .featured {
+    width: 96%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  nav {
+    padding-top: 60px;
+  }
+  .day-night-block {
+    display: flex;
+    left: 50%;
+    justify-content: center;
+    transform: translate(-50%, 0);
+  }
+  .circle {
+    width: 36px;
+    height: 36px;
+  }
+  .circle-separator {
+    font-size: 2em;
+    line-height: 36px;
+  }
+  .info-bites-list-item {
+    width: 90%;
+  }
+  .info-bites-list-item:first-child {
+    padding-left: 0;
+  }
+  .featured {
+    width: 96%;
+  }
+  .featured-article-box {
+    width: 100%;
+  }
+}

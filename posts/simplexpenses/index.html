@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  
+  <title>Dimitar Ralev | Simplexpenses - The battle of the frameworks</title>
+  
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i" rel="stylesheet">
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+<div class="wrapper">
+  <header class="header">
+  <nav>
+    <ul class="nav-list">
+      <li class="nav-list-item"><a class="nav-list-item-link home" href="/">~</a></li>
+      <li class="nav-list-item">&nbsp;/ <a class="nav-list-item-link" href="#">space</a></li>
+      <li class="nav-list-item">&nbsp;/ <a class="nav-list-item-link" href="#">couch</a></li>
+    </ul>
+  </nav>
+  <div class="day-night-block">
+    <span class="circle toggle-night" data-time="night"></span>
+    <span class="circle-separator">/</span>
+    <span class="circle toggle-day" data-time="day"></span>
+  </div>
+  
+</header>
+
+  
+  <section class="content-wrap">
+    <header class="post-header">
+      <h1 class="article-heading">Simplexpenses - The battle of the frameworks</h1>
+      <span class="article-date"> Thu Jan 24, 2013 </span>
+      <span class="article-info"> 600 Words </span>
+    </header>
+    <div>
+      <article id="content">
+         
+
+<p><img src="/img/simplexpenses_large.png" alt="Simplexpenses" /></p>
+
+<p>After the release of the early Bookmarko version, I started to look around for the next idea that would be interesting to be made and also to help me learn some new developer tools. That&rsquo;s why my approach was more &ldquo;Let&rsquo;s see how this will work&rdquo; than to make a full working app. But that doesn&rsquo;t mean that I was not paying attention to every detail.</p>
+
+<h2 id="some-technical-stuff">Some technical stuff</h2>
+
+<p>This time for REST framework I wanted to try TastyPie. I spent day or two playing with it and reading the docs, but then I decided to go back to django-rest-framework because I thought that it&rsquo;s easy to set up and use. Later I found that I was used to how things were in the old version of django-rest, and the new one isn&rsquo;t that different from TastyPie when it comes to simple api setup. Anyway I decided to use it for this project. Maybe I will use TastyPie another time. Huge props to the creators of both.</p>
+
+<p>On client side I decided to use Angular instead Backbone which I am using for Bookmarko. Things started very tough. If your only experience with js frameworks is Backbone, then prepare for crash when you meet Angular. Services, Directives, Factories, it was a whole new world to learn and play with.</p>
+
+<p>The danger of learning a second framework is that you will always say things like &ldquo;This was more easy with the first one&rdquo; and you can easily be ignorant to the advantages that this new tool gives you.</p>
+
+<p>I had troubles with many things that are not obvious in the beginning and personally I am not a big fan of templating (I still like my HTML to be clean and easy to read). It looked that I will need time to get the whole feeling of how things should be done in Angular way.
+So after a couple of days trying to build the app with Angular, I gave up and made a fresh start, this time with Backbone.</p>
+
+<p>After couple of hours rewriting everything with Backbone, I was trying to write some simple app functionality, but easily the code started to look a bit messy. I was constantly thinking how this can be done in Angular with only a few words or lines. My biggest need for this project was to update simultaneously separate parts of the app. This was very easy with the two-way data binding that Angular has, I thought. Then I realized that I don&rsquo;t want to make this app without the help of data binding, the &lsquo;change&rsquo; event in Backbone wasn&rsquo;t enough for me. I decided not to search how to do it in Backbone but return again to Angular with more confidence.
+Now as I release the early beta, I can say that Angular is great. In some cases will be hard to learn, but it saves a lot of time.</p>
+
+<h2 id="simple-is-great">Simple is great</h2>
+
+<p>There isn&rsquo;t much to say about how I designed the app, except that I wanted to make the interface as simple as it can be. Showing only what&rsquo;s important to the user in combination with simple interface elements and a lot of white space. Another important goal was to animate every interaction with the app, I think that if the user manipulates something, there should be a visible feedback, this is how things work in our world.</p>
+
+<p>This is in short what I think was interesting to mention for this small project.</p>
+
+<p><em>I wrote this using draftin, <a href="http://draftin.com">check out</a></em></p>
+
+      </article>
+    </div>
+  </section>
+  <footer>
+  <h3>Made on Earth</h3>
+  <span class="earth"></span>
+</footer>
+
+  <script src="/js/bridge.js"></script>
+</div>
+</body>
+</html>
