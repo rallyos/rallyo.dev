@@ -31,7 +31,12 @@
         },
         {
             "title": "Can be found on:",
-            "subtitle": "Twitter / Last.fm / Medium"
+            "subtitle": "Twitter / Last.fm / Medium",
+            "links": [
+                { "name": "Twitter", "url": "https://twitter.com/dmralev" },
+                { "name": "Last.fm", "url": "https://www.last.fm/user/polarisbg" },
+                { "name": "Medium", "url": "https://medium.com/@dmralev" }
+            ]
         }
     ]
 }
