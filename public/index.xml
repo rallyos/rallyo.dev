@@ -1,14 +1,56 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>http://example.org/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <title>Dimitar Ralev</title>
+    <link>http://dimitarralev.net/</link>
+    <description>Recent content on Dimitar Ralev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Wed, 31 Dec 2014 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://dimitarralev.net/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The spirit of 2014 - Warpaint</title>
+      <link>http://dimitarralev.net/posts/warpaint/</link>
+      <pubDate>Wed, 31 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://dimitarralev.net/posts/warpaint/</guid>
+      <description>I remember that I first heard Warpaint early this year. I assume that I just followed some pitchfork link to their new single, maybe because I thought that their name is cool.
+Sure, I hardly imagined that about year later - on 31st of December, I will be writing about them.
+I remember that I instantly liked the dark mood and the melancholic sound of Love is to die.
+Then I decided to listen their first album - The Fool.</description>
+    </item>
+    
+    <item>
+      <title>Bookmarko - Learning by doing</title>
+      <link>http://dimitarralev.net/posts/bookmarko/</link>
+      <pubDate>Thu, 17 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://dimitarralev.net/posts/bookmarko/</guid>
+      <description>Months before I started Tuesday(The WordPress theme), I was thinking about ideas for a serious project and most of the time the word that was coming to my mind was Bookmarking.
+At this time, when I find something interesting on the internet, I had to open gmail and send the links to myself. As bad as it sounds that was my way to save things for later. I don&amp;rsquo;t like how browsers handle bookmarks.</description>
+    </item>
+    
+    <item>
+      <title>On making Tuesday from the second try</title>
+      <link>http://dimitarralev.net/posts/tuesday/</link>
+      <pubDate>Fri, 04 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://dimitarralev.net/posts/tuesday/</guid>
+      <description>On making Tuesday from the second try Short personal story I remember the day very clear. Previous night I decided to get up early, go to Costa Coffee, and start the project. My plans were to finish it in one month, deadline that now sounds to me very optimistic, given the fact that I finished Tuesday in month and a half. But with the experience that I had then a month is impossible.</description>
+    </item>
+    
+    <item>
+      <title>Simplexpenses - The battle of the frameworks</title>
+      <link>http://dimitarralev.net/posts/simplexpenses/</link>
+      <pubDate>Thu, 24 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://dimitarralev.net/posts/simplexpenses/</guid>
+      <description>After the release of the early Bookmarko version, I started to look around for the next idea that would be interesting to be made and also to help me learn some new developer tools. That&amp;rsquo;s why my approach was more &amp;ldquo;Let&amp;rsquo;s see how this will work&amp;rdquo; than to make a full working app. But that doesn&amp;rsquo;t mean that I was not paying attention to every detail.
+Some technical stuff This time for REST framework I wanted to try TastyPie.</description>
+    </item>
     
   </channel>
 </rss>
