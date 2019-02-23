@@ -8,7 +8,7 @@
           {{ range $index, $element := .links }}
               <a href="{{ .url }}" target="_blank">{{ .name }}</a>
               {{ if not (eq $index 2) }}
-              <span> / </span>
+              <span> · </span>
               {{ end  }}
           {{ end }}
           </div>

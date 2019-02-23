@@ -1,12 +1,12 @@
 {
     "bites": [
         {
-            "title": "I've built things with:",
-            "subtitle": "Python / Ruby / Go / Swift / JavaScript"
+            "title": "I've built things with",
+            "subtitle": "Python · Ruby · Go · Swift · JavaScript"
         },
         {
-            "title": "Released projects named:",
-            "subtitle": "xkcd thingy / bookmarko / simplexpenses",
+            "title": "Released projects named",
+            "subtitle": "xkcd thingy · bookmarko · simplexpenses",
             "links": [
                 { "name": "xkcd thingy", "url": "" },
                 { "name": "bookmarko", "url": "http://bookmarkoapp.com" },
@@ -14,24 +14,24 @@
             ]
         },
         {
-            "title": "Use tools like:",
-            "subtitle": "MAC OS X / vim / Sublime Text"
+            "title": "Use tools like",
+            "subtitle": "MAC OS X · vim · Sublime Text"
         },
         {
-            "title": "Used great open source:",
-            "subtitle": "Django / Bottle.py / Ruby on Rails / React & React Native / Backbone.js / Angular"
+            "title": "Used great open source",
+            "subtitle": "Django · Bottle.py · Ruby on Rails · React & React Native · Backbone.js · Angular"
         },
         {
-            "title": "Have interest in:",
-            "subtitle": "AI / Space Exploration / Rocketry"
+            "title": "Have interest in",
+            "subtitle": "space exploration · rocketry · conservation"
         },
         {
-            "title": "Live in:",
-            "subtitle": "Sofia / Burgas / Bulgaria / Earth"
+            "title": "Live in",
+            "subtitle": "Sofia · Burgas · Bulgaria · Earth"
         },
         {
-            "title": "Can be found on:",
-            "subtitle": "Twitter / Last.fm / Medium",
+            "title": "Can be found on",
+            "subtitle": "Twitter · Last.fm · Medium",
             "links": [
                 { "name": "Twitter", "url": "https://twitter.com/dmralev" },
                 { "name": "Last.fm", "url": "https://www.last.fm/user/polarisbg" },
