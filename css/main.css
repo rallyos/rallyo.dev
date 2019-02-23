@@ -1,7 +1,8 @@
 body {
-  font-family: 'Lora', serif;
+  font-family: "Roboto Mono", monospace;
   color: #fff;
   margin: 0;
+  font-size: 0.9em;
 }
 ul {
   list-style: none;
@@ -85,9 +86,9 @@ a:hover {
   border: solid 2px #000;
 }
 .circle-separator {
-	float: left;
-	font-size: 3em;
-	line-height: 40px;
+  float: left;
+  font-size: 3em;
+  line-height: 40px;
   margin: 0 10px;
   color: #D45C41;
 }
@@ -105,8 +106,8 @@ a:hover {
 .featured-article-box {
   width: 46%;
   margin: 20px 0;
-  line-height: 1.3em;
-  word-spacing: 2px;
+  /* line-height: 1.3em; */
+  /* word-spacing: 2px; */
 }
 .featured-article-link {
   color: #fff;
@@ -119,7 +120,6 @@ a:hover {
 .more-posts-box {
   width: 100%;
   font-size: 4em;
-  font-family: monospace;
   text-align: center;
 }
 .more-posts-box a {
@@ -143,25 +143,36 @@ a:hover {
 }
 .info-bites-list-item:first-child {
   width: 90%;
-  padding-left: 35%;
+  padding: 0 35%;
 }
 .info-bite-box {
   margin: 0 auto;
 }
 .info-bite-title {
   display: block;
+  padding: 8px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.day .info-bite-title {
+  background: #343534;
+  color: white;
+}
+.night .info-bite-title {
+  background: white;
+  color: #343534;
 }
 .info-bite-subtitle {
   display: block;
-  padding-left: 20px;
+  text-align: center;
 }
 
 .content-wrap {
   max-width: 1080px;
   width: 90%;
   margin: 0 auto;
-  line-height: 1.3em;
-  word-spacing: 2px;
+  /* line-height: 1.3em; */
+  /* word-spacing: 2px; */
 }
 .content-wrap a {
   color: #D45C41;
