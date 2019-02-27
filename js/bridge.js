@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function(){
     function getTimeOfDay() {
         var d = new Date()
 
-        if (d.getHours() > 19 && d.getHours() < 7) {
+        if (d.getHours() > 19 || d.getHours() < 7) {
             return 'night';
         }
 

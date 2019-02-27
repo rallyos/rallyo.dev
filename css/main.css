@@ -13,7 +13,9 @@ a {
   text-decoration: none;
 }
 .wrapper {
+  max-width: 980px;
   padding-bottom: 20px;
+  margin: 0 auto;
   transition: 0.5s;
 }
 .day {
@@ -35,7 +37,6 @@ a:hover {
   color: #D45C41;
 }
 .header {
-  text-align: center;
   margin-bottom: 20px;
 }
 .header-title {
@@ -63,15 +64,14 @@ a:hover {
   color: #D45C41;
 }
 .day-night-block {
-  position: absolute;
-  top: 8px;
-  right: 8px;
+  padding-top: 5px;
+  float: right;
 }
 .circle {
   display: block;
-  width: 40px;
-  height: 40px;
-  border-radius: 20px;
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
   background: #fff;
   float: left;
   cursor: pointer;
@@ -79,43 +79,43 @@ a:hover {
 }
 .toggle-night {
   background: #000;
-  border: solid 2px #fff;
+  border: solid 2px #343534;
 }
 .toggle-day {
   background: #fff;
-  border: solid 2px #000;
+  border: solid 2px #343534;
 }
 .circle-separator {
   float: left;
-  font-size: 3em;
-  line-height: 40px;
+  font-size: 2.7em;
+  line-height: 28px;
   margin: 0 10px;
   color: #D45C41;
 }
-.featured {
+.posts-list {
   width: 88%;
   margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-.featured-article-box:first-child {
-  width: 100%;
   text-align: center;
 }
-.featured-article-box {
-  width: 46%;
-  margin: 20px 0;
-  /* line-height: 1.3em; */
-  /* word-spacing: 2px; */
+.moon-stars-icon,
+.cookie-icon,
+.pizza-icon {
+  font-size: 2em;
 }
-.featured-article-link {
+.article-box {
+  width: 100%;
+  margin: 5px 0;
+}
+.article-link {
   color: #fff;
   text-decoration: none;
   cursor: pointer;
 }
-.featured-article-link:hover {
+.article-link:hover {
   text-decoration: underline;
+}
+.summary {
+  margin-bottom: 10px;
 }
 .more-posts-box {
   width: 100%;
@@ -128,39 +128,33 @@ a:hover {
 .about {
 
 }
-.info-bites-list {
-  width: 88%;
+.thing-of-the-week-heading {
+  margin: 10px 0;
+}
+.featured {
+  width: 100%;
+  padding: 20px 0 0;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   margin: 0 auto;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
 }
-.info-bites-list-item {
-  width: 20%;
-  margin: 0 5% 50px;
-}
-.info-bites-list-item:first-child {
-  width: 90%;
-  padding: 0 35%;
+.featured-box {
+  width: 48%;
+  margin: 0 0 50px;
+  text-align: center;
 }
 .info-bite-box {
   margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 .info-bite-title {
   display: block;
   padding: 8px;
   margin-bottom: 10px;
   text-align: center;
-}
-.day .info-bite-title {
-  background: #343534;
-  color: white;
-}
-.night .info-bite-title {
-  background: white;
-  color: #343534;
+  border-bottom: solid 2px #D45C41;
 }
 .info-bite-subtitle {
   display: block;
@@ -171,8 +165,6 @@ a:hover {
   max-width: 1080px;
   width: 90%;
   margin: 0 auto;
-  /* line-height: 1.3em; */
-  /* word-spacing: 2px; */
 }
 .content-wrap a {
   color: #D45C41;
@@ -223,17 +215,17 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-  .info-bites-list {
+  .featured-box {
     width: 90%;
   }
-  .info-bites-list-item {
+  .featured-box {
     width: 45%;
     margin: 0 0 50px;
   }
-  .info-bites-list-item:first-child {
+  .featured-box:first-child {
     padding-left: 20%;
   }
-  .featured {
+  .posts-list {
     width: 96%;
   }
 }
@@ -256,16 +248,16 @@ footer {
     font-size: 2em;
     line-height: 36px;
   }
-  .info-bites-list-item {
+  .featured-box {
     width: 90%;
   }
-  .info-bites-list-item:first-child {
+  .featured-box:first-child {
     padding-left: 0;
   }
   .featured {
     width: 96%;
   }
-  .featured-article-box {
+  .article-box {
     width: 100%;
   }
 }
