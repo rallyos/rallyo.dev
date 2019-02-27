@@ -1,8 +1,8 @@
-<section class="featured">
-{{ range first 3 .Data.Pages }}
+<i class="fal fa-moon-stars moon-stars-icon"></i>
+{{ range first 1 .Data.Pages }}
   <article class="featured-article-box">
     <div class="summary">
-      <h4><a class="featured-article-link" href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
+      <h4><a class="article-link" href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
       {{ .Summary }}
     </div>
     {{ if .Truncated }}
@@ -12,7 +12,3 @@
     {{ end }}
   </article>
 {{ end }}
-  <article class="more-posts-box">
-    <a href="/posts">&#8729;&#8729;&#8729;</a>
-  </article>
-</section>

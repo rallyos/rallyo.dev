@@ -1,0 +1,18 @@
+<section class="posts-list">
+{{ range after 1 .Data.Pages }}
+  <article class="article-box">
+    <div class="summary">
+      <h4><a class="article-link" href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
+      {{ .Summary }}
+    </div>
+    {{ if .Truncated }}
+    <div class="read-more-link">
+      <a href="{{ .RelPermalink }}">Read More…</a>
+    </div>
+    {{ end }}
+  </article>
+{{ end }}
+  <article class="more-posts-box">
+    <a href="/posts">&#8729;&#8729;&#8729;</a>
+  </article>
+</section>

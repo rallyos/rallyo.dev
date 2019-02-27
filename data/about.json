@@ -1,11 +1,7 @@
 {
     "bites": [
         {
-            "title": "I've built things with",
-            "subtitle": "Python · Ruby · Go · Swift · JavaScript"
-        },
-        {
-            "title": "Released projects named",
+            "title": "Projects",
             "subtitle": "xkcd thingy · bookmarko · simplexpenses",
             "links": [
                 { "name": "xkcd thingy", "url": "" },
@@ -14,23 +10,7 @@
             ]
         },
         {
-            "title": "Use tools like",
-            "subtitle": "MAC OS X · vim · Sublime Text"
-        },
-        {
-            "title": "Used great open source",
-            "subtitle": "Django · Bottle.py · Ruby on Rails · React & React Native · Backbone.js · Angular"
-        },
-        {
-            "title": "Have interest in",
-            "subtitle": "space exploration · rocketry · conservation"
-        },
-        {
-            "title": "Live in",
-            "subtitle": "Sofia · Burgas · Bulgaria · Earth"
-        },
-        {
-            "title": "Can be found on",
+            "title": "",
             "subtitle": "Twitter · Last.fm · Medium",
             "links": [
                 { "name": "Twitter", "url": "https://twitter.com/dmralev" },
