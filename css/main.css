@@ -14,7 +14,7 @@ a {
 }
 .wrapper {
   max-width: 980px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   margin: 0 auto;
   transition: 0.5s;
 }
@@ -38,11 +38,6 @@ a:hover {
 }
 .header {
   margin-bottom: 20px;
-}
-.header-title {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
-  margin-bottom: 40px;
 }
 .nav-list {
   display: inline-block;
@@ -99,7 +94,8 @@ a:hover {
 }
 .moon-stars-icon,
 .cookie-icon,
-.pizza-icon {
+.pizza-icon,
+.forklift-icon {
   font-size: 2em;
 }
 .article-box {
@@ -128,9 +124,6 @@ a:hover {
 .about {
 
 }
-.thing-of-the-week-heading {
-  margin: 10px 0;
-}
 .featured {
   width: 100%;
   padding: 20px 0 0;
@@ -144,21 +137,11 @@ a:hover {
   margin: 0 0 50px;
   text-align: center;
 }
-.info-bite-box {
-  margin: 0 auto;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+.featured-heading {
+  margin: 10px 0;
 }
-.info-bite-title {
-  display: block;
-  padding: 8px;
-  margin-bottom: 10px;
-  text-align: center;
-  border-bottom: solid 2px #D45C41;
-}
-.info-bite-subtitle {
-  display: block;
-  text-align: center;
+.thing-of-week, .recent-work {
+  margin: 5px 0 35px;
 }
 
 .content-wrap {
@@ -206,7 +189,7 @@ footer {
   height: 12px;
   border: solid 28px #1300ED;
   background: #435B1D;
-  margin: 0 auto;
+  margin: 0 auto 20px;
   border-radius: 40px;
 }
 ::selection {
