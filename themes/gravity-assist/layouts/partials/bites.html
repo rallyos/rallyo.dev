@@ -1,19 +1,12 @@
-<!--
-{{ range .bites}}
-    <div class="info-bite-box">
-      <span class="info-bite-title">{{ .title }}</span>
-      {{ if .links }}
-          <div class="info-bite-subtitle">
-          {{ range $index, $element := .links }}
-              <a href="{{ .url }}" target="_blank">{{ .name }}</a>
-              {{ if not (eq $index 2) }}
-              <span> · </span>
-              {{ end  }}
-          {{ end }}
-          </div>
-      {{ else }}
-          <span class="info-bite-subtitle">{{ .subtitle }}</span>
-      {{ end }}
+<div class="recent-work">
+  <i class="fal fa-forklift forklift-icon"></i></i>
+  <h4 class="featured-heading">{{ .work.title }}</h4>
+    <div>
+    {{ range $index, $element := .work.links }}
+        <a href="{{ .url }}" target="_blank">{{ .name }}</a>
+        {{ if not (eq $index 2) }}
+        <span> · </span>
+        {{ end  }}
+    {{ end }}
     </div>
-{{ end }}
--->
+</div>

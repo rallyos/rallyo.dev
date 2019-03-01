@@ -1,4 +1,14 @@
 <footer>
   <h3>Made on Earth</h3>
   <span class="earth"></span>
+  <div>
+  {{ range $.Site.Data }}
+    {{ range $index, $element := .networks.links }}
+        <a href="{{ .url }}" target="_blank">{{ .name }}</a>
+        {{ if not (eq $index 2) }}
+        <span> · </span>
+        {{ end  }}
+    {{ end }}
+  {{ end }}
+  </div>
 </footer>

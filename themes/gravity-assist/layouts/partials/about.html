@@ -1,9 +1,11 @@
 <section class="about">
 	<ul class="featured">
 		<li class="featured-box">
-      <i class="fal fa-cookie-bite cookie-icon"></i>
-      <h4 class="thing-of-the-week-heading"><a class="article-link" href="{{ .RelPermalink }}">Thing of the week</a></h4>
-      <a class="article-link" href="{{ .RelPermalink }}">Coming really soon </a>
+      <div class="thing-of-week">
+        <i class="fal fa-cookie-bite cookie-icon"></i>
+        <h4 class="featured-heading"><a class="article-link" href="{{ .RelPermalink }}">Thing of the week</a></h4>
+        <a class="article-link" href="{{ .RelPermalink }}">Coming really soon </a>
+      </div>
       {{ range $.Site.Data }}
           {{ partial "bites.html" . }}
       {{ end  }}

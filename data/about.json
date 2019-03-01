@@ -1,22 +1,16 @@
 {
-    "bites": [
-        {
-            "title": "Projects",
-            "subtitle": "xkcd thingy · bookmarko · simplexpenses",
-            "links": [
-                { "name": "xkcd thingy", "url": "" },
-                { "name": "bookmarko", "url": "http://bookmarkoapp.com" },
-                { "name": "simplexpenses", "url": "http://simplepenses.herokuapp.com" }
-            ]
-        },
-        {
-            "title": "",
-            "subtitle": "Twitter · Last.fm · Medium",
-            "links": [
-                { "name": "Twitter", "url": "https://twitter.com/dmralev" },
-                { "name": "Last.fm", "url": "https://www.last.fm/user/polarisbg" },
-                { "name": "Medium", "url": "https://medium.com/@dmralev" }
-            ]
-        }
-    ]
+    "work": {
+        "title": "Recently working on",
+        "links": [
+            { "name": "this site", "url": "https://dimitarralev.net" }
+        ]
+    },
+    "networks": {
+        "title": "",
+        "links": [
+            { "name": "Twitter", "url": "https://twitter.com/dmralev" },
+            { "name": "Last.fm", "url": "https://www.last.fm/user/polarisbg" },
+            { "name": "Medium", "url": "https://medium.com/@dmralev" }
+        ]
+    }
 }
