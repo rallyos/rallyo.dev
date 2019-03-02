@@ -1,5 +1,5 @@
 <section class="posts-list">
-{{ range after 1 .Data.Pages }}
+{{ range after 1 (where .Data.Pages "Section" "posts") }}
   <article class="article-box">
     <div class="summary">
       <h4><a class="article-link" href="{{ .RelPermalink }}">{{ .Title }}</a></h4>

@@ -1,12 +1,13 @@
+{{ $links_length := (len $.work.links)  }}
 <div class="recent-work">
   <i class="fal fa-forklift forklift-icon"></i></i>
   <h4 class="featured-heading">{{ .work.title }}</h4>
     <div>
     {{ range $index, $element := .work.links }}
         <a href="{{ .url }}" target="_blank">{{ .name }}</a>
-        {{ if not (eq $index 2) }}
+        {{ if not (eq (add $index 1) $links_length) }}
         <span> · </span>
-        {{ end  }}
+        {{ end }}
     {{ end }}
     </div>
 </div>

@@ -52,7 +52,7 @@ a:hover {
 }
 .nav-list-item-link.home {
   font-size: 2em;
-  line-height: 40px;
+  line-height: 32px;
 }
 .nav-list-item-link:hover {
   text-decoration: overline;
@@ -86,6 +86,7 @@ a:hover {
   line-height: 28px;
   margin: 0 10px;
   color: #D45C41;
+  cursor: default;
 }
 .posts-list {
   width: 88%;
@@ -138,16 +139,18 @@ a:hover {
   text-align: center;
 }
 .featured-heading {
-  margin: 10px 0;
+  margin: 20px 0 10px;
 }
 .thing-of-week, .recent-work {
-  margin: 5px 0 35px;
+  margin-bottom: 40px;
 }
 
 .content-wrap {
   max-width: 1080px;
   width: 90%;
   margin: 0 auto;
+  font-family: 'Lora', serif;
+  font-size: 1.1em;
 }
 .content-wrap a {
   color: #D45C41;
@@ -196,51 +199,60 @@ footer {
   background: rgba(204, 63, 32, 0.85);
   color: #fff;
 }
+@media screen and (max-width: 980px) {
+  nav {
+    padding: 0 20px;
+  }
+  .featured-article-box {
+    padding: 0 20px;
+  }
+}
 
 @media screen and (max-width: 768px) {
-  .featured-box {
-    width: 90%;
+  .nav-list-item {
+    font-size: 1.6em;
+    word-spacing: -8px;
+  }
+  .circle {
+    width: 28px;
+    height: 28px;
+  }
+  .circle-separator {
+    font-size: 2.2em;
+    line-height: 25px;
+  }
+  .nav-list-item-link.home {
+    line-height: 25px;
+  }
+  body {
+    font-size: 0.8em;
+  }
+}
+@media screen and (max-width: 600px) {
+  .day-night-block {
+    padding-top: 3px;
+  }
+  .featured {
+    flex-direction: column-reverse;
   }
   .featured-box {
-    width: 45%;
-    margin: 0 0 50px;
-  }
-  .featured-box:first-child {
-    padding-left: 20%;
-  }
-  .posts-list {
-    width: 96%;
+    width: 100%;
   }
 }
 
 @media screen and (max-width: 420px) {
   nav {
-    padding-top: 60px;
-  }
-  .day-night-block {
-    display: flex;
-    left: 50%;
-    justify-content: center;
-    transform: translate(-50%, 0);
+    padding: 0 8px;
   }
   .circle {
-    width: 36px;
-    height: 36px;
+    width: 20px;
+    height: 20px;
   }
   .circle-separator {
     font-size: 2em;
-    line-height: 36px;
+    line-height: 18px;
   }
-  .featured-box {
-    width: 90%;
-  }
-  .featured-box:first-child {
-    padding-left: 0;
-  }
-  .featured {
-    width: 96%;
-  }
-  .article-box {
-    width: 100%;
+  .nav-list-item-link.home {
+    line-height: 20px;
   }
 }
