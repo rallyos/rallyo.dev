@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dimitar Ralev</title>
+    <link>http://dimitarralev.net/thing/</link>
+    <description>Recent content on Dimitar Ralev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 10 Feb 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://dimitarralev.net/thing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Test</title>
+      <link>http://dimitarralev.net/thing/tmuxinator/</link>
+      <pubDate>Sun, 10 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://dimitarralev.net/thing/tmuxinator/</guid>
+      <description>Test</description>
+    </item>
+    
+  </channel>
+</rss>

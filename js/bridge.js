@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function(){
     var circles = document.querySelectorAll('.circle');
 
     function setTimeOfDay(t) {
-        document.querySelector('.wrapper').className = 'wrapper ' + t;
+        document.querySelector('body').className = 'wrapper ' + t;
         localStorage.setItem('timeOfDay', t)
     }
 
