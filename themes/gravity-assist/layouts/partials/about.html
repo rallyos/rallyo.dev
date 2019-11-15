@@ -6,7 +6,7 @@
         {{ with $.Site.GetPage "thing" }}
         <h4 class="featured-heading"><a class="article-link" href="{{ .RelPermalink }}">Thing of the week</a></h4>
         {{ end }}
-        {{ range where .Pages "Section" "thing" }}
+        {{ range first 2 (where site.Pages.ByDate "Section" "thing") }}
           <a class="article-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
         {{ end }}
       </div>

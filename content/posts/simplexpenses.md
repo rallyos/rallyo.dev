@@ -1,6 +1,7 @@
 +++
 date        = "2013-01-24"
 title       = "Simplexpenses - The battle of the frameworks"
+categories  = ["featured"]
 project_url = "http://simplexpenses.herokuapp.com/"
 +++
 

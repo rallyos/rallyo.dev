@@ -2,6 +2,7 @@
 date        = "2013-10-17"
 title       = "Bookmarko - Learning by doing"
 slug        = "bookmarko"
+categories  = ["projects"]
 project_url = "http://bookmarkoapp.com/"
 +++
 

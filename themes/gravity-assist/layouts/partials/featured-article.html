@@ -1,9 +1,9 @@
 <i class="fal fa-moon-stars moon-stars-icon"></i>
-{{ range first 1 (where .Data.Pages "Section" "posts") }}
+  {{ range .Site.Taxonomies.categories.featured.Pages.ByDate }}
   <article class="featured-article-box">
     <div class="summary">
       <h4><a class="article-link" href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
-      {{ .Summary }}
+      <p class="article-summary-text">{{ .Summary }}</p>
     </div>
     {{ if .Truncated }}
     <div class="read-more-link">

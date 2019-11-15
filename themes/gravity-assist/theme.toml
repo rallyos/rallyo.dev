@@ -5,17 +5,11 @@ name = "Gravity Assist"
 license = "MIT"
 licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE.md"
 description = ""
-homepage = "http://siteforthistheme.com/"
+homepage = "https://dimitarralev.net"
 tags = []
 features = []
 min_version = "0.20"
 
 [author]
-  name = ""
-  homepage = ""
-
-# If porting an existing theme
-[original]
-  name = ""
-  homepage = ""
-  repo = ""
+  name = "Dimitar Ralev"
+  homepage = "https://dimitarralev.net"

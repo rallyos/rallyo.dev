@@ -1,0 +1,23 @@
+{{ partial "meta.html" . }}
+<body>
+<div class="wrapper">
+  {{ partial "header.html" . }}
+  {{ $baseURL := .Site.BaseURL }}
+  <section class="content-wrap">
+    <div class="list-posts-box">
+        {{ range .Data.Pages }}
+          <article class="list-posts-item">
+            <div class="list-posts-item-summary">
+              <h4 class="list-posts-item-title"><a class="article-link" href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
+              <h5 class="list-posts-item-date"> {{ .Date.Format "Mon Jan 2, 2006" }} </h5>
+              {{ .Summary }}
+            </div>
+          </article>
+        {{ end }}
+    </div>
+  </section>
+  {{ partial "footer.html" . }}
+  <script src="/js/bridge.js"></script>
+</div>
+</body>
+</html>
