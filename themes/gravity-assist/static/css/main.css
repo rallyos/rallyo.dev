@@ -93,10 +93,22 @@ a:hover {
   color: #D45C41;
   cursor: default;
 }
-.posts-list {
-  width: 88%;
+.posts {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
   margin: 0 auto;
-  text-align: center;
+}
+.posts-list {
+  width: 44%;
+}
+.posts-category {
+  margin-bottom: 40px;
+  padding-bottom: 10px;
+  border-bottom: solid 1px #D25D46;
+  font-weight: 300;
+  text-transform: capitalize;
+  cursor: default;
 }
 .moon-stars-icon,
 .cookie-icon,
@@ -104,9 +116,13 @@ a:hover {
 .forklift-icon {
   font-size: 2em;
 }
+.brackets-icon, .paper-plane-icon {
+  color: #D25D46;
+}
 .article-box {
   width: 100%;
-  margin: 5px 0;
+  margin-bottom: 40px;
+  text-align: center;
 }
 .article-link {
   color: #fff;
@@ -116,8 +132,8 @@ a:hover {
 .article-link:hover {
   text-decoration: underline;
 }
-.summary {
-  margin-bottom: 10px;
+.article-summary-text {
+  font-size: 0.9em;
 }
 .more-posts-box {
   width: 100%;
@@ -140,7 +156,6 @@ a:hover {
 }
 .featured-box {
   width: 48%;
-  margin: 0 0 50px;
   text-align: center;
 }
 .featured-heading {

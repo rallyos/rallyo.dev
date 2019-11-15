@@ -1,18 +1,32 @@
-<section class="posts-list">
-{{ range after 1 (where .Data.Pages "Section" "posts") }}
-  <article class="article-box">
-    <div class="summary">
-      <h4><a class="article-link" href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
-      {{ .Summary }}
-    </div>
-    {{ if .Truncated }}
-    <div class="read-more-link">
-      <a href="{{ .RelPermalink }}">Read More…</a>
-    </div>
+<section class="posts">
+	{{ range $key, $taxonomy := .Site.Taxonomies.categories.Alphabetical.Reverse }}
+  {{ if not (eq $taxonomy.Name "featured") }}
+  <div class="posts-list">
+    <h3 class="posts-category">
+      {{ $taxonomy.Name }}
+      {{ if eq $taxonomy.Name "projects" }}
+      <i class="fad fa-brackets-curly brackets-icon"></i>
+      {{ else if eq $taxonomy.Name "personal" }}
+      <i class="fad fa-paper-plane paper-plane-icon"></i>
+      {{ end }}
+    </h3>
+    {{ range first 2 (where $taxonomy.Pages.ByDate "Section" "posts") }}
+      <article class="article-box">
+        <div class="article-summary">
+          <h4><a class="article-link" href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
+          <p class="article-summary-text">{{ .Summary }}</p>
+        </div>
+        {{ if .Truncated }}
+        <div class="read-more-link">
+          <a href="{{ .RelPermalink }}">Read More…</a>
+        </div>
+        {{ end }}
+      </article>
     {{ end }}
-  </article>
-{{ end }}
-  <article class="more-posts-box">
-    <a href="/posts">&#8729;&#8729;&#8729;</a>
-  </article>
+    <div class="more-posts-box">
+      <a href="{{ .Page.Permalink  }}">&#8729;&#8729;&#8729;</a>
+    </div>
+  </div>
+  {{ end }}
+  {{ end }}
 </section>
