@@ -49,6 +49,9 @@ a:hover {
   text-decoration: none;
   cursor: pointer;
 }
+.slash-symbol {
+  cursor: default;
+}
 .crosslined {
   text-decoration: line-through;
 }
