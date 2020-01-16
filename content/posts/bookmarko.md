@@ -56,4 +56,4 @@ If I use web service for managing bookmarks I will want from it to provide simpl
 
 At the time I write this, Bookmarko is something close to beta, but it's not yet released, and it's not the service that I want to be, and maybe won't be even in a year or three. I plan to add many features, most of them will be based on productivity and user experience in the app.  
 
-*I wrote this using draftin, [check out](http://draftin.com)*
+*I wrote this using draftin, [check it out](http://draftin.com)*

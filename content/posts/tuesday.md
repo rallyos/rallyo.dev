@@ -40,4 +40,4 @@ After I completed customization settings and the responsive design - Tuesday was
 
 I had fun developing Tuesday, and I hope people find it useful. Now the struggle is to find time to keep it up-to-date.
 
-*I wrote this using draftin, [check out](http://draftin.com)*
+*I wrote this using draftin, [check it out](http://draftin.com)*
