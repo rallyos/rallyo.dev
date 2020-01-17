@@ -8,7 +8,9 @@
       </li>
       <li class="nav-list-item">
         <span class="slash-symbol">&nbsp;/ </span>
-        <a class="nav-list-item-link" href="#">things</a>
+        {{ with $.Site.GetPage "thing" }}
+        <a class="nav-list-item-link" href="{{ .RelPermalink }}">things</a>
+        {{ end }}
       </li>
     </ul>
     <div class="day-night-block">
