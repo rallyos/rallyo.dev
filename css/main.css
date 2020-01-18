@@ -16,7 +16,6 @@ a {
   max-width: 980px;
   padding-bottom: 10px;
   margin: 0 auto;
-  transition: 0.5s;
 }
 .day {
   background: #fff;
@@ -49,6 +48,12 @@ a:hover {
 .nav-list-item-link {
   text-decoration: none;
   cursor: pointer;
+}
+.crosslined {
+  text-decoration: line-through;
+}
+.nav-list-item-link.crosslined:hover {
+  text-decoration: line-through;
 }
 .nav-list-item-link.home {
   font-size: 2em;
@@ -88,10 +93,22 @@ a:hover {
   color: #D45C41;
   cursor: default;
 }
-.posts-list {
-  width: 88%;
+.posts {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
   margin: 0 auto;
-  text-align: center;
+}
+.posts-list {
+  width: 44%;
+}
+.posts-category {
+  margin-bottom: 40px;
+  padding-bottom: 10px;
+  border-bottom: solid 1px #D25D46;
+  font-weight: 300;
+  text-transform: capitalize;
+  cursor: default;
 }
 .moon-stars-icon,
 .cookie-icon,
@@ -99,9 +116,13 @@ a:hover {
 .forklift-icon {
   font-size: 2em;
 }
+.brackets-icon, .paper-plane-icon {
+  color: #D25D46;
+}
 .article-box {
   width: 100%;
-  margin: 5px 0;
+  margin-bottom: 40px;
+  text-align: center;
 }
 .article-link {
   color: #fff;
@@ -111,8 +132,8 @@ a:hover {
 .article-link:hover {
   text-decoration: underline;
 }
-.summary {
-  margin-bottom: 10px;
+.article-summary-text {
+  font-size: 0.9em;
 }
 .more-posts-box {
   width: 100%;
@@ -135,7 +156,6 @@ a:hover {
 }
 .featured-box {
   width: 48%;
-  margin: 0 0 50px;
   text-align: center;
 }
 .featured-heading {
@@ -144,23 +164,30 @@ a:hover {
 .thing-of-week, .recent-work {
   margin-bottom: 40px;
 }
-
+.article-heading {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 2.4em;
+  font-weight: 400;
+}
 .content-wrap {
   max-width: 1080px;
   width: 90%;
   margin: 0 auto;
-  font-family: 'Lora', serif;
-  font-size: 1.1em;
+  font-family: 'IBM Plex Mono', serif;
+  font-size: 1em;
 }
 .content-wrap a {
   color: #D45C41;
+}
+.content-wrap h2 {
+  font-family: "IBM Plex Sans", sans-serif;
 }
 .read-more-link {
   text-decoration: underline;
 }
 .post-header {
-  display: inline-block;
-  margin-bottom: 40px;
+  margin: 20px 0 40px;
+  text-align: center;
 }
 #content img {
   max-width: 100%;

@@ -1,10 +1,37 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://dimitarralev.net/thing/</loc>
+    <lastmod>2019-02-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://dimitarralev.net/</loc>
+    <lastmod>2019-02-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://dimitarralev.net/thing/tmuxinator/</loc>
     <lastmod>2019-02-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dimitarralev.net/posts/</loc>
+    <lastmod>2014-12-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://dimitarralev.net/categories/</loc>
+    <lastmod>2014-12-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dimitarralev.net/categories/personal/</loc>
+    <lastmod>2014-12-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -18,8 +45,18 @@
   </url>
   
   <url>
+    <loc>http://dimitarralev.net/categories/projects/</loc>
+    <lastmod>2013-10-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://dimitarralev.net/posts/tuesday/</loc>
     <lastmod>2013-10-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dimitarralev.net/categories/featured/</loc>
+    <lastmod>2013-01-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -28,29 +65,7 @@
   </url>
   
   <url>
-    <loc>http://dimitarralev.net/posts/</loc>
-    <lastmod>2014-12-31T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dimitarralev.net/thing/</loc>
-    <lastmod>2019-02-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dimitarralev.net/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://dimitarralev.net/</loc>
-    <lastmod>2019-02-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://dimitarralev.net/tags/</loc>
-    <priority>0</priority>
   </url>
   
 </urlset>

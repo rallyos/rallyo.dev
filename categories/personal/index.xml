@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>personal on Dimitar Ralev</title>
+    <link>http://dimitarralev.net/categories/personal/</link>
+    <description>Recent content in personal on Dimitar Ralev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 31 Dec 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://dimitarralev.net/categories/personal/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The spirit of 2014 - Warpaint</title>
+      <link>http://dimitarralev.net/posts/warpaint/</link>
+      <pubDate>Wed, 31 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://dimitarralev.net/posts/warpaint/</guid>
+      <description>I remember that I first heard Warpaint early this year. I assume that I just followed some pitchfork link to their new single, maybe because I thought that their name is cool.
+Sure, I hardly imagined that about year later - on 31st of December, I will be writing about them.</description>
+    </item>
+    
+  </channel>
+</rss>
