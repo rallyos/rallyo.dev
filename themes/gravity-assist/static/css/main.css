@@ -46,8 +46,13 @@ a:hover {
   font-size: 2em;
 }
 .nav-list-item-link {
-  text-decoration: none;
+  display: inline-block;
   cursor: pointer;
+  border-top: solid 3px transparent;
+}
+.nav-list-item-link:hover {
+  text-decoration: none;
+  border-top-color: #D45C41;
 }
 .slash-symbol {
   cursor: default;
@@ -61,10 +66,6 @@ a:hover {
 .nav-list-item-link.home {
   font-size: 2em;
   line-height: 32px;
-}
-.nav-list-item-link:hover {
-  text-decoration: overline;
-  color: #D45C41;
 }
 .day-night-block {
   padding-top: 5px;
