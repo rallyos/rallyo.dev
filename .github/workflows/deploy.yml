@@ -1,0 +1,20 @@
+name: CI
+
+on: 
+  push:
+    branches: 
+      - master
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v1
+      - name: Installing Hugo
+        run: apt-get install hugo=0.59
+
+
+      - name: Executing deploy script
+        run: ./deploy.sh
