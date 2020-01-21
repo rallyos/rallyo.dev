@@ -1,0 +1,23 @@
+name: Deploy
+
+on: 
+  push:
+    branches: 
+      - master
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v1
+  
+      - name: Installing Hugo
+        run: curl -sSL https://github.com/gohugoio/hugo/releases/download/v0.59.1/hugo_0.59.1_Linux-64bit.tar.gz > /tmp/hugo.tar.gz && sudo tar -xvzf /tmp/hugo.tar.gz -C /usr/local/bin
+
+      - name: Executing deploy script
+        run: sh deploy.sh
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          EMAIL: ${{ secrets.EMAIL }}
