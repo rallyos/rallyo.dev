@@ -10,7 +10,7 @@
       <i class="fad fa-paper-plane paper-plane-icon"></i>
       {{ end }}
     </h3>
-    {{ range first 2 (where $taxonomy.Pages.ByDate "Section" "posts") }}
+    {{ range first 2 (where $taxonomy.Pages.ByDate.Reverse "Section" "posts") }}
       <article class="article-box">
         <div class="article-summary">
           <h4><a class="article-link" href="{{ .RelPermalink }}">{{ .Title }}</a></h4>

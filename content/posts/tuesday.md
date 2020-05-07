@@ -7,8 +7,6 @@ slug        = "tuesday"
 
 ![Tuesday](/img/tuesday_large.png)
 
-# On making Tuesday from the second try
-
 ## Short personal story
 
 I remember the day very clear. Previous night I decided to get up early, go to Costa Coffee, and start the project. My plans were to finish it in one month, deadline that now sounds to me very optimistic, given the fact that I finished Tuesday in month and a half. But with the experience that I had then a month is impossible.  

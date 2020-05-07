@@ -3,10 +3,10 @@
 		<li class="featured-box">
       <div class="thing-of-week">
         <i class="fal fa-cookie-bite cookie-icon"></i>
-        {{ with $.Site.GetPage "thing" }}
+        {{ with $.Site.GetPage "things" }}
         <h4 class="featured-heading"><a class="article-link" href="{{ .RelPermalink }}">Thing of the week</a></h4>
         {{ end }}
-        {{ range first 2 (where site.Pages.ByDate "Section" "thing") }}
+        {{ range first 2 (where site.Pages.ByDate "Section" "things") }}
           <a class="article-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
         {{ end }}
       </div>

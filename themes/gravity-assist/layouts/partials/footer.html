@@ -1,14 +1,13 @@
 <footer>
-  <h3>Made on Earth</h3>
-  <span class="earth"></span>
   <div>
   {{ range $.Site.Data }}
     {{ range $index, $element := .networks.links }}
-        <a href="{{ .url }}" target="_blank">{{ .name }}</a>
+        <a rel='noopener noreferrer' href="{{ .url }}" target="_blank">{{ .name }}</a>
         {{ if not (eq $index 2) }}
         <span> · </span>
         {{ end  }}
     {{ end }}
   {{ end }}
   </div>
+  <span class="hugo-version">Built with <a rel='noopener noreferrer' href="https://gohugo.io/" target="_blank">Hugo</a></span>
 </footer>
