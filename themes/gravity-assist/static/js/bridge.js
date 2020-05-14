@@ -16,8 +16,6 @@ document.addEventListener("DOMContentLoaded", function(){
         return 'day';
     }
 
-
-
     if (localStorage.getItem('timeOfDay')) {
         setTimeOfDay(localStorage.getItem('timeOfDay'));
     } else {
@@ -30,7 +28,4 @@ document.addEventListener("DOMContentLoaded", function(){
             setTimeOfDay(dayOrNight);
         });
     })
-
-
-
 });
