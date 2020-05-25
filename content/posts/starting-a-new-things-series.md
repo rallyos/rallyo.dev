@@ -19,4 +19,6 @@ So, after my intro, it's now pretty clear what I decided on, although it took me
 
 It can be literally anything, an album, game, site, coding tools, there's no topic or limit, and I'll try to present it in a short format(ain't nobody has the time, right?).
 
+[My first thing]({{< ref "/things/tmuxinator.md" >}}) is probably very boring and known by most devs who use tmux, but it was my original plan from year and a half ago, so I'm sticking to it.
+
 Hopefully this format will age good with time, and some time in the future I will be able to go back and revisit the things I shared, and look at them as a kind of journal about the things I was interested at the time. Contrary to what they say in The Office, nostalgia is **not** _"one of the human's greatest weaknesses"_ ~~or maybe it is~~.
