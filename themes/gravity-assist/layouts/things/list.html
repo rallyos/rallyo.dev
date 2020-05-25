@@ -1,6 +1,3 @@
-<section class="featured">
-</section>
-
 {{ partial "meta.html" . }}
 <body>
 <div class="wrapper">
@@ -8,11 +5,11 @@
   {{ $baseURL := .Site.BaseURL }}
   <section class="content-wrap">
     <div class="list-posts-box">
-        {{ range .Data.Pages }}
+        {{ range .Data.Pages.ByDate }}
           <article class="list-posts-item">
             <div class="list-posts-item-summary">
               <h4 class="list-posts-item-title"><a class="article-link" href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
-              <h5 class="list-posts-item-date"> {{ .Date.Format "Mon Jan 2, 2006" }} </h5>
+              <h5 class="list-posts-item-date"> {{ .Params.issue }} </h5>
               {{ .Summary }}
             </div>
           </article>

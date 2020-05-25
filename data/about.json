@@ -10,8 +10,7 @@
         "links": [
             { "name": "Email", "url": "mailto:dralev@pm.me" },
             { "name": "Twitter", "url": "https://twitter.com/dmralev" },
-            { "name": "Last.fm", "url": "https://www.last.fm/user/polarisbg" },
-            { "name": "Medium", "url": "https://medium.com/@dmralev" }
+            { "name": "Last.fm", "url": "https://www.last.fm/user/polarisbg" }
         ]
     }
 }

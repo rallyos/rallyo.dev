@@ -4,7 +4,7 @@
   <h4 class="featured-heading">{{ .work.title }}</h4>
     <div>
     {{ range $index, $element := .work.links }}
-        <a href="{{ .url }}" target="_blank">{{ .name }}</a>
+        <a rel='noopener noreferrer' href="{{ .url }}" target="_blank">{{ .name }}</a>
         {{ if not (eq (add $index 1) $links_length) }}
         <span> · </span>
         {{ end }}

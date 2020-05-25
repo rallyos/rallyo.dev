@@ -29,4 +29,4 @@ There isn't much to say about how I designed the app, except that I wanted to ma
 
 This is in short what I think was interesting to mention for this small project.  
 
-*I wrote this using draftin, [check out](http://draftin.com)*
+*I wrote this using draftin, [check it out](http://draftin.com)*

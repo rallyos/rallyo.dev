@@ -6,8 +6,7 @@
   <section class="content-wrap">
     <header class="post-header">
       <h1 class="article-heading">{{ .Title }}</h1>
-      <span class="article-date"> {{ .Date.Format "Mon Jan 2, 2006" }} </span>
-      <span class="article-info"> {{ .FuzzyWordCount }} Words </span>
+      <span class="article-date">Thing of the week | Issue {{ .Params.Issue }} | </span> <span class="article-info"> {{ .FuzzyWordCount }} Words </span>
     </header>
     <div>
       <article id="content">

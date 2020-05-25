@@ -7,8 +7,6 @@ slug        = "tuesday"
 
 ![Tuesday](/img/tuesday_large.png)
 
-# On making Tuesday from the second try
-
 ## Short personal story
 
 I remember the day very clear. Previous night I decided to get up early, go to Costa Coffee, and start the project. My plans were to finish it in one month, deadline that now sounds to me very optimistic, given the fact that I finished Tuesday in month and a half. But with the experience that I had then a month is impossible.  
@@ -40,4 +38,4 @@ After I completed customization settings and the responsive design - Tuesday was
 
 I had fun developing Tuesday, and I hope people find it useful. Now the struggle is to find time to keep it up-to-date.
 
-*I wrote this using draftin, [check out](http://draftin.com)*
+*I wrote this using draftin, [check it out](http://draftin.com)*
