@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>Dimitar Ralev - Tmuxinator</title>
+  
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,300i,400,400i,500,500i" rel="stylesheet">
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+<div class="wrapper">
+  <header class="header">
+  <nav>
+    <ul class="nav-list">
+      <li class="nav-list-item"><a class="nav-list-item-link home" href="/">~</a></li>
+      <li class="nav-list-item">
+        <span class="slash-symbol">&nbsp;/ </span>
+        <a class="nav-list-item-link crosslined" href="#">space</a>
+      </li>
+      <li class="nav-list-item">
+        <span class="slash-symbol">&nbsp;/ </span>
+        
+        <a class="nav-list-item-link" href="/things/">things</a>
+        
+      </li>
+    </ul>
+    <div class="day-night-block">
+      <span class="circle toggle-night" data-time="night"></span>
+      <span class="circle-separator">/</span>
+      <span class="circle toggle-day" data-time="day"></span>
+    </div>
+  </nav>
+</header>
+
+  
+  <section class="content-wrap">
+    <header class="post-header">
+      <h1 class="article-heading">Tmuxinator</h1>
+      <span class="article-date">Thing of the week | Issue 2020-21 | </span> <span class="article-info"> 300 Words </span>
+    </header>
+    <div>
+      <article id="content">
+         <p><img src="https://user-images.githubusercontent.com/289949/44366875-1a6cee00-a49c-11e8-9322-76e70df0c88b.gif" alt="Tmuxinator example usage" /></p>
+
+<p>Here we go, issue 1.</p>
+
+<p>I will probably sound like one of these cheesy TV shop commercials that want you to call in the next 5 minutes for a great deal, but hear me out. Chance is you&rsquo;ve already seen this tool in the newsletters you follow.</p>
+
+<p>If you, like me, are working on multiple projects on your machine that require different environments and <a href="https://github.com/tmux/tmux/wiki">tmux</a> keybindings are not a stopper for you, then you definitely must give <a href="https://github.com/tmuxinator/tmuxinator/">Tmuxinator</a> a try.</p>
+
+<p>Their readme starts with the simple sentence:</p>
+
+<blockquote>
+<p>‌Create and manage tmux sessions easily.</p>
+</blockquote>
+
+<p>But there&rsquo;s more power to this than it seems.</p>
+
+<p>With <a href="https://github.com/tmuxinator/tmuxinator/">Tmuxinator</a> you can set up config files for every project you work on, you basically configure how to split your tmux panes and what to be run in each one when you start a session. In the above above example you can see how it works for Rails environments.</p>
+
+<p>Here&rsquo;s my simple config for this site. My first pane always fires up the editor, while the other ones provide me a quick way of doing things like running a server, console or git.</p>
+
+<pre><code>name: home
+root: ~/code/dimitarralev/
+
+startup_window: editor
+
+windows:
+    - editor:
+        panes:
+            - vim
+
+    - general:
+        layout: 34d8,204x51,0,0[204x34,0,0{102x34,0,0,1,101x34,103,0,2},204x16,0,35{102x16,0,35,3,101x16,103,35,4}]
+        panes:
+            - hugo server --theme=gravity-assist --buildDrafts
+            - ctop
+            - git pull &amp;&amp; tig
+            - buku
+</code></pre>
+
+<p>Sprinkle on it some of your useful terminal magic like aliases and you can effectively switch between projects in a matter of seconds.</p>
+
+      </article>
+    </div>
+  </section>
+  <footer>
+  <div>
+  
+    
+        <a rel='noopener noreferrer' href="mailto:dralev@pm.me" target="_blank">Email</a>
+        
+        <span> · </span>
+        
+    
+        <a rel='noopener noreferrer' href="https://twitter.com/dmralev" target="_blank">Twitter</a>
+        
+        <span> · </span>
+        
+    
+        <a rel='noopener noreferrer' href="https://www.last.fm/user/polarisbg" target="_blank">Last.fm</a>
+        
+    
+  
+  </div>
+  <span class="hugo-version">Built with <a rel='noopener noreferrer' href="https://gohugo.io/" target="_blank">Hugo</a></span>
+</footer>
+<script src="https://kit.fontawesome.com/aaa26f6133.js" crossorigin="anonymous"></script>
+
+  <script src="/js/bridge.js"></script>
+</div>
+</body>
+</html>

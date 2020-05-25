@@ -3,35 +3,40 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://dimitarralev.net/thing/</loc>
-    <lastmod>2019-02-10T00:00:00+00:00</lastmod>
+    <loc>http://dimitarralev.net/posts/</loc>
+    <lastmod>2020-05-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://dimitarralev.net/</loc>
-    <lastmod>2019-02-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dimitarralev.net/thing/tmuxinator/</loc>
-    <lastmod>2019-02-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dimitarralev.net/posts/</loc>
-    <lastmod>2014-12-31T00:00:00+00:00</lastmod>
+    <loc>http://dimitarralev.net/things/</loc>
+    <lastmod>2020-05-24T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://dimitarralev.net/categories/</loc>
-    <lastmod>2014-12-31T00:00:00+00:00</lastmod>
+    <lastmod>2020-05-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dimitarralev.net/</loc>
+    <lastmod>2020-05-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://dimitarralev.net/categories/personal/</loc>
-    <lastmod>2014-12-31T00:00:00+00:00</lastmod>
+    <lastmod>2020-05-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dimitarralev.net/posts/starting-a-new-things-series/</loc>
+    <lastmod>2020-05-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dimitarralev.net/things/tmuxinator/</loc>
+    <lastmod>2020-05-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>

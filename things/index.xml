@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dimitar Ralev</title>
+    <link>http://dimitarralev.net/things/</link>
+    <description>Recent content on Dimitar Ralev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 24 May 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://dimitarralev.net/things/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tmuxinator</title>
+      <link>http://dimitarralev.net/things/tmuxinator/</link>
+      <pubDate>Sun, 24 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://dimitarralev.net/things/tmuxinator/</guid>
+      <description>Here we go, issue 1.
+I will probably sound like one of these cheesy TV shop commercials that want you to call in the next 5 minutes for a great deal, but hear me out. Chance is you&amp;rsquo;ve already seen this tool in the newsletters you follow.</description>
+    </item>
+    
+  </channel>
+</rss>

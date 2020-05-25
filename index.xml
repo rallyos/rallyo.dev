@@ -6,18 +6,28 @@
     <description>Recent content on Dimitar Ralev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 24 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://dimitarralev.net/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Tmuxinator</title>
-      <link>http://dimitarralev.net/thing/tmuxinator/</link>
-      <pubDate>Sun, 10 Feb 2019 00:00:00 +0000</pubDate>
+      <title>Starting a new “Things” series</title>
+      <link>http://dimitarralev.net/posts/starting-a-new-things-series/</link>
+      <pubDate>Sun, 24 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://dimitarralev.net/thing/tmuxinator/</guid>
-      <description>Test</description>
+      <guid>http://dimitarralev.net/posts/starting-a-new-things-series/</guid>
+      <description>It’s probably hard to count how many services are out there on the internet, for the sole purpose of sharing interesting links (they will even reward you with some kind of cute virtual) and yet, I decided to start a weekly article series on doing the exact same thing, here…</description>
+    </item>
+    
+    <item>
+      <title>Tmuxinator</title>
+      <link>http://dimitarralev.net/things/tmuxinator/</link>
+      <pubDate>Sun, 24 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://dimitarralev.net/things/tmuxinator/</guid>
+      <description>Here we go, issue 1.
+I will probably sound like one of these cheesy TV shop commercials that want you to call in the next 5 minutes for a great deal, but hear me out. Chance is you&amp;rsquo;ve already seen this tool in the newsletters you follow.</description>
     </item>
     
     <item>
@@ -46,7 +56,7 @@ At this time, when I find something interesting on the internet, I had to open g
       <pubDate>Fri, 04 Oct 2013 00:00:00 +0000</pubDate>
       
       <guid>http://dimitarralev.net/posts/tuesday/</guid>
-      <description>On making Tuesday from the second try Short personal story I remember the day very clear. Previous night I decided to get up early, go to Costa Coffee, and start the project. My plans were to finish it in one month, deadline that now sounds to me very optimistic, given the fact that I finished Tuesday in month and a half.</description>
+      <description>Short personal story I remember the day very clear. Previous night I decided to get up early, go to Costa Coffee, and start the project. My plans were to finish it in one month, deadline that now sounds to me very optimistic, given the fact that I finished Tuesday in month and a half.</description>
     </item>
     
     <item>
