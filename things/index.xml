@@ -6,10 +6,20 @@
     <description>Recent content on Dimitar Ralev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://dimitarralev.net/things/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Habitica</title>
+      <link>http://dimitarralev.net/things/habitica/</link>
+      <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://dimitarralev.net/things/habitica/</guid>
+      <description>This week&amp;rsquo;s issue is about the thing that made the most impact on my productivity in the last year.
+Few months ago I had one of these days where I was in a mood to give chances to todo apps I haven&amp;rsquo;t tried yet (the list was shrinking).</description>
+    </item>
     
     <item>
       <title>Tmuxinator</title>
