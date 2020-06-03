@@ -1,7 +1,6 @@
 +++
 title       = "Habitica"
 date        = 2020-06-02
-draft       = true
 issue       = "2020-22"
 +++
 
