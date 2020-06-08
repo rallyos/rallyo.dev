@@ -14,8 +14,8 @@
   <link rel="stylesheet" href="https://dimitarralev.net/css/main.min.css">
 </head>
 
-<body>
-  <div class="wrapper">
+<body class="wrapper">
+  <div>
     <header class="header">
   <nav>
     <ul class="nav-list">
@@ -185,10 +185,13 @@ Sure, I hardly imagined that about year later - on 31st of December, I will be w
 </footer>
 
   </div>
-    
-  
-  <script src="https://dimitarralev.net/js/bridge.min.js"></script>
-
   <script src="https://kit.fontawesome.com/aaa26f6133.js" crossorigin="anonymous"></script>
+  <script>
+document.addEventListener("DOMContentLoaded",function(){function e(e){document.querySelector("body").className="wrapper "+e,localStorage.setItem("timeOfDay",e)}function t(){var e=new Date
+return e.getHours()>19||e.getHours()<7?"night":"day"}var a=document.querySelectorAll(".circle")
+e(localStorage.getItem("timeOfDay")?localStorage.getItem("timeOfDay"):t()),a.forEach(function(t){t.addEventListener("click",function(){var t=this.dataset.time
+e(t)})})})
+</script>
+
 </body>
 </html>

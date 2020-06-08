@@ -80,9 +80,12 @@ At this time, when I find something interesting on the internet, I had to open g
   <span class="hugo-version">Built with <a rel='noopener noreferrer' href="https://gohugo.io/" target="_blank">Hugo</a></span>
 </footer>
 
-    
-  
-  <script src="https://dimitarralev.net/js/bridge.min.js"></script>
+  <script>
+document.addEventListener("DOMContentLoaded",function(){function e(e){document.querySelector("body").className="wrapper "+e,localStorage.setItem("timeOfDay",e)}function t(){var e=new Date
+return e.getHours()>19||e.getHours()<7?"night":"day"}var a=document.querySelectorAll(".circle")
+e(localStorage.getItem("timeOfDay")?localStorage.getItem("timeOfDay"):t()),a.forEach(function(t){t.addEventListener("click",function(){var t=this.dataset.time
+e(t)})})})
+</script>
 
 </div>
 </body>
