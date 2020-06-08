@@ -133,6 +133,10 @@ a:hover {
 .pizza-icon,
 .forklift-icon {
   font-size: 2em;
+  display: block;
+  margin: 0 auto;
+  width: 31px;
+  height: 31px;
 }
 .brackets-icon, .paper-plane-icon {
   color: #D25D46;
