@@ -1,5 +1,6 @@
 body {
   font-family: "Roboto Mono", monospace;
+  font-display: swap;
   color: #fff;
   margin: 0;
   font-size: 0.95em;
@@ -313,6 +314,9 @@ footer {
   }
   .featured-box {
     width: 100%;
+  }
+  .featured-heading {
+    margin: 20px 0 25px;
   }
   .thing-of-week, .recent-work {
     margin-bottom: 20px;

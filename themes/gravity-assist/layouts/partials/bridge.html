@@ -1,0 +1,3 @@
+  {{ $bridge := resources.Get "js/bridge.js" }}
+  {{ $js := $bridge | resources.Minify }}
+  <script src="{{ $js.Permalink }}" async></script>
