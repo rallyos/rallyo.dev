@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Dimitar Ralev</title>
-    <link>http://dimitarralev.net/categories/</link>
+    <link>https://dimitarralev.net/categories/</link>
     <description>Recent content in Categories on Dimitar Ralev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 24 May 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://dimitarralev.net/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://dimitarralev.net/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>personal</title>
-      <link>http://dimitarralev.net/categories/personal/</link>
+      <link>https://dimitarralev.net/categories/personal/</link>
       <pubDate>Sun, 24 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://dimitarralev.net/categories/personal/</guid>
+      <guid>https://dimitarralev.net/categories/personal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>projects</title>
-      <link>http://dimitarralev.net/categories/projects/</link>
+      <link>https://dimitarralev.net/categories/projects/</link>
       <pubDate>Thu, 17 Oct 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://dimitarralev.net/categories/projects/</guid>
+      <guid>https://dimitarralev.net/categories/projects/</guid>
       <description></description>
     </item>
     
     <item>
       <title>featured</title>
-      <link>http://dimitarralev.net/categories/featured/</link>
+      <link>https://dimitarralev.net/categories/featured/</link>
       <pubDate>Thu, 24 Jan 2013 00:00:00 +0000</pubDate>
       
-      <guid>http://dimitarralev.net/categories/featured/</guid>
+      <guid>https://dimitarralev.net/categories/featured/</guid>
       <description></description>
     </item>
     

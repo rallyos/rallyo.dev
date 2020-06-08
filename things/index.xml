@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dimitar Ralev</title>
-    <link>http://dimitarralev.net/things/</link>
+    <link>https://dimitarralev.net/things/</link>
     <description>Recent content on Dimitar Ralev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 07 Jun 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://dimitarralev.net/things/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://dimitarralev.net/things/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Internet Historian: Engoodening of No Mans Sky</title>
-      <link>http://dimitarralev.net/things/internet-historian-engoodening-of-no-mans-sky/</link>
+      <link>https://dimitarralev.net/things/internet-historian-engoodening-of-no-mans-sky/</link>
       <pubDate>Sun, 07 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://dimitarralev.net/things/internet-historian-engoodening-of-no-mans-sky/</guid>
+      <guid>https://dimitarralev.net/things/internet-historian-engoodening-of-no-mans-sky/</guid>
       <description>I haven&amp;rsquo;t played No Man&amp;rsquo;s Sky yet, mainly because I don&amp;rsquo;t have where, but if you are following game news at least at the basic level - you probably have heard of the hype around the release of No Man&amp;rsquo;s Sky, the harsh criticism that it didn&amp;rsquo;t live up to its promised gameplay, and then its near heroic return, with a couple of really successful patches.</description>
     </item>
     
     <item>
       <title>Habitica</title>
-      <link>http://dimitarralev.net/things/habitica/</link>
+      <link>https://dimitarralev.net/things/habitica/</link>
       <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://dimitarralev.net/things/habitica/</guid>
+      <guid>https://dimitarralev.net/things/habitica/</guid>
       <description>This week&amp;rsquo;s issue is about the thing that made the most impact on my productivity in the last year.
 Few months ago I had one of these days where I was in a mood to give chances to todo apps I haven&amp;rsquo;t tried yet (the list was shrinking).</description>
     </item>
     
     <item>
       <title>Tmuxinator</title>
-      <link>http://dimitarralev.net/things/tmuxinator/</link>
+      <link>https://dimitarralev.net/things/tmuxinator/</link>
       <pubDate>Sun, 24 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://dimitarralev.net/things/tmuxinator/</guid>
+      <guid>https://dimitarralev.net/things/tmuxinator/</guid>
       <description>Here we go, issue 1.
 I will probably sound like one of these cheesy TV shop commercials that want you to call in the next 5 minutes for a great deal, but hear me out. Chance is you&amp;rsquo;ve already seen this tool in the newsletters you follow.</description>
     </item>
