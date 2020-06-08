@@ -1,3 +1,6 @@
-  {{ $bridge := resources.Get "js/bridge.js" }}
-  {{ $js := $bridge | resources.Minify }}
-  <script src="{{ $js.Permalink }}"></script>
+<script>
+document.addEventListener("DOMContentLoaded",function(){function e(e){document.querySelector("body").className="wrapper "+e,localStorage.setItem("timeOfDay",e)}function t(){var e=new Date
+return e.getHours()>19||e.getHours()<7?"night":"day"}var a=document.querySelectorAll(".circle")
+e(localStorage.getItem("timeOfDay")?localStorage.getItem("timeOfDay"):t()),a.forEach(function(t){t.addEventListener("click",function(){var t=this.dataset.time
+e(t)})})})
+</script>
