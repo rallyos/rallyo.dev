@@ -5,11 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {{ if .IsHome }}
   <title>{{ .Site.Title }}</title>
+  <meta name="description" content="My internet treehouse.">
   {{ else if eq .Kind "section" }}
   <title>{{ .Site.Title }} | {{ .Section }}</title>
+  <meta name="description" content="{{ .Summary }}">
   {{ else if .IsPage }}
   <title>{{ .Site.Title }} - {{ .Title }}</title>
   {{ end }}
   <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,300i,400,400i,500,500i" rel="stylesheet">
-  <link rel="stylesheet" href="/css/main.css">
+  {{ $css := resources.Get "css/main.css" }}
+  {{ $style := $css | resources.Minify }}
+  <link rel="stylesheet" href="{{ $style.Permalink }}">
 </head>
