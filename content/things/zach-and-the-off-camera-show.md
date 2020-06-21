@@ -4,7 +4,7 @@ date        = 2020-06-14
 issue       = "2020-24"
 +++
 
-[![No man's sky video thumbnail](https://img.youtube.com/vi/MUdm-jKezEI/maxresdefault.jpg)](https://www.youtube.com/watch?v=MUdm-jKezEI)
+[![Off Camera show](https://img.youtube.com/vi/MUdm-jKezEI/maxresdefault.jpg)](https://www.youtube.com/watch?v=MUdm-jKezEI)
 
 I have seen a couple of videos from the off camera show a while ago while searching around YouTube (that black & white is something you never forget), but never actually decided to check other interviews from it. Luckily, this week the recommendation algorithm surprised me with a clip from their interview with Zach Galifianakis which I loved for 2 reasons.
 
