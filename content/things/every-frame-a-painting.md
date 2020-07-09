@@ -1,12 +1,12 @@
 +++
-title       = "Every Frame a Picture"
+title       = "Every Frame a Painting"
 date        = 2020-07-09T11:08:29+03:00
 issue       = "2020-26"
 +++
 
-[![Every frame a picture](https://img.youtube.com/vi/jGc-K7giqKM/maxresdefault.jpg)](https://www.youtube.com/watch?v=jGc-K7giqKM)
+[![Every frame a painting](https://img.youtube.com/vi/jGc-K7giqKM/maxresdefault.jpg)](https://www.youtube.com/watch?v=jGc-K7giqKM)
 
-Most of the times on YouTube you spot pretty quick if the content is thoroughly researched and tailored to the last detail. That was definitely the case when I stumbled on Every Frame a Picture a few years ago.
+Most of the times on YouTube you spot pretty quick if the content is thoroughly researched and tailored to the last detail. That was definitely the case when I stumbled on Every Frame a Painting a few years ago.
 
 If you, like me, enjoy analysis of the [tricks and creativity in producing quality visual storytelling](https://www.youtube.com/watch?v=8q4X2vDRfRk), you'll for sure love [their video essays](https://www.youtube.com/watch?v=Z1PCtIaM_GQ).
 
