@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>Dimitar Ralev - World of Warcraft</title>
+  
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,300i,400,400i,500,500i" rel="stylesheet">
+  
+  
+  <link rel="stylesheet" href="https://dimitarralev.net/css/main.min.css">
+</head>
+
+<body>
+<div class="wrapper">
+  <header class="header">
+  <nav>
+    <ul class="nav-list">
+      <li class="nav-list-item"><a class="nav-list-item-link home" href="/">~</a></li>
+      <li class="nav-list-item">
+        <span class="slash-symbol">&nbsp;/ </span>
+        <a class="nav-list-item-link crosslined" href="#">space</a>
+      </li>
+      <li class="nav-list-item">
+        <span class="slash-symbol">&nbsp;/ </span>
+        
+        <a class="nav-list-item-link" href="/things/">things</a>
+        
+      </li>
+    </ul>
+    <div class="day-night-block">
+      <span class="circle toggle-night" data-time="night"></span>
+      <span class="circle-separator">/</span>
+      <span class="circle toggle-day" data-time="day"></span>
+    </div>
+  </nav>
+</header>
+
+  
+  <section class="content-wrap">
+    <header class="post-header">
+      <h1 class="article-heading">World of Warcraft</h1>
+      <span class="article-date">Thing of the week | Issue 2020-28 | </span> <span class="article-info"> 200 Words </span>
+    </header>
+    <div>
+      <article id="content">
+         <p><a href="https://www.youtube.com/watch?v=MW4fASDkQXA"><img src="https://img.youtube.com/vi/MW4fASDkQXA/maxresdefault.jpg" alt="World of Warcraft - Music &amp; Ambience - Elwynn Forest" /></a></p>
+
+<p>Here we go, the game you now hate while playing, but love while not. The main source of nostalgia for millions of people, and one of the reasons I skipped writing a couple of posts here, because I was busy levelling and gearing my new Death Knight.</p>
+
+<p>I usually play it for a month or two when expansions are released, because I don&rsquo;t think that it&rsquo;s worth it to farm gear that will be obsolete after a few months, this time it was due to not finding anything to play on weekends and kind of wanting to prepare a new char for the upcoming expansion.</p>
+
+<p>Nostalgia is probably the best weapon that this game has in its arsenal (not even talking about WoW Classic here), the everlasting promise that you&rsquo;ll have a fun time playing it, only to find yourself after a few weeks, grinding daily quests and weird items to exchange for a new mount, wondering if life has any meaning, aside from trying to constantly escape the boring and sad phases, sometimes through playing games.</p>
+
+      </article>
+    </div>
+  </section>
+  <footer>
+  <div>
+  
+    
+        <a rel='noopener noreferrer' href="mailto:dralev@pm.me" target="_blank">Email</a>
+        
+        <span> · </span>
+        
+    
+        <a rel='noopener noreferrer' href="https://twitter.com/dmralev" target="_blank">Twitter</a>
+        
+        <span> · </span>
+        
+    
+        <a rel='noopener noreferrer' href="https://www.last.fm/user/polarisbg" target="_blank">Last.fm</a>
+        
+    
+  
+  </div>
+  <span class="hugo-version">Built with <a rel='noopener noreferrer' href="https://gohugo.io/" target="_blank">Hugo</a></span>
+</footer>
+
+  <script>
+document.addEventListener("DOMContentLoaded",function(){function e(e){document.querySelector("body").className="wrapper "+e,localStorage.setItem("timeOfDay",e)}function t(){var e=new Date
+return e.getHours()>19||e.getHours()<7?"night":"day"}var a=document.querySelectorAll(".circle")
+e(localStorage.getItem("timeOfDay")?localStorage.getItem("timeOfDay"):t()),a.forEach(function(t){t.addEventListener("click",function(){var t=this.dataset.time
+e(t)})})})
+</script>
+
+</div>
+</body>
+</html>

@@ -6,10 +6,19 @@
     <description>Recent content on Dimitar Ralev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Jul 2020 12:15:18 +0300</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://dimitarralev.net/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>World of Warcraft</title>
+      <link>https://dimitarralev.net/things/world-of-warcraft/</link>
+      <pubDate>Tue, 04 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://dimitarralev.net/things/world-of-warcraft/</guid>
+      <description>Here we go, the game you now hate while playing, but love while not. The main source of nostalgia for millions of people, and one of the reasons I skipped writing a couple of posts here, because I was busy levelling and gearing my new Death Knight.</description>
+    </item>
     
     <item>
       <title>Typewriter Businesses</title>
