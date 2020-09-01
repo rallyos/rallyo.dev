@@ -19,6 +19,7 @@ h2 {
 }
 figure {
   margin: 0;
+  text-align: center;
 }
 figcaption > p {
   margin: 5px 0 25px !important;
@@ -39,7 +40,7 @@ figcaption > p {
   color: #343534;
 }
 .night {
-  background: #000;
+  background: #1A1A1A;
   color: #fff;
 }
 .night a {
@@ -96,7 +97,7 @@ a:hover {
   box-sizing: border-box;
 }
 .toggle-night {
-  background: #000;
+  background: #1A1A1A;
   border: solid 2px #343534;
 }
 .toggle-day {
@@ -226,7 +227,10 @@ a:hover {
 #content blockquote p {
   margin: 10px 0;
 }
-
+#content ul {
+  list-style: initial;
+  margin-left: 20px;
+}
 .list-posts-box {
   margin: 40px 0;
 }
