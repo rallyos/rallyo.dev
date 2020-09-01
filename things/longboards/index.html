@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>Dimitar Ralev - Longboards</title>
+  
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,300i,400,400i,500,500i" rel="stylesheet">
+  
+  
+  <link rel="stylesheet" href="https://dimitarralev.net/css/main.min.css">
+</head>
+
+<body>
+<div class="wrapper">
+  <header class="header">
+  <nav>
+    <ul class="nav-list">
+      <li class="nav-list-item"><a class="nav-list-item-link home" href="/">~</a></li>
+      <li class="nav-list-item">
+        <span class="slash-symbol">&nbsp;/ </span>
+        <a class="nav-list-item-link crosslined" href="#">space</a>
+      </li>
+      <li class="nav-list-item">
+        <span class="slash-symbol">&nbsp;/ </span>
+        
+        <a class="nav-list-item-link" href="/things/">things</a>
+        
+      </li>
+    </ul>
+    <div class="day-night-block">
+      <span class="circle toggle-night" data-time="night"></span>
+      <span class="circle-separator">/</span>
+      <span class="circle toggle-day" data-time="day"></span>
+    </div>
+  </nav>
+</header>
+
+  
+  <section class="content-wrap">
+    <header class="post-header">
+      <h1 class="article-heading">Longboards</h1>
+      <span class="article-date">Thing of the week | Issue 2020-35 | </span> <span class="article-info"> 200 Words </span>
+    </header>
+    <div>
+      <article id="content">
+         <p><img src="/img/longboards.jpg" alt="Longboard" /></p>
+
+<p>It took me a few summers to decide, but I&rsquo;ve finally bought myself a longboard 😲</p>
+
+<p>Aside from turning my legs into jelly the next day and making my other workouts harder, it&rsquo;s a great way to cruise around and hype to a hip-hop bangers.</p>
+
+<p>So far I mostly use it as an extra workout in case I happen to need one for the day, although I&rsquo;ve used it once to cover a few kilometre distance to a football game (and was 15 minutes late).</p>
+
+<p>The summer here is a bit crowded, so I can&rsquo;t wait for the autumn to hit and be able to cruise in the middle of the day without being annoyed by the amount of people in the park.</p>
+
+<p>For finale I just want to say how much I&rsquo;m grateful that my city has at least the base minimal infrastructure to make me enjoy being on the board, you can&rsquo;t say this for other cities (looking at you Sofia).</p>
+
+      </article>
+    </div>
+  </section>
+  <footer>
+  <div>
+  
+    
+        <a rel='noopener noreferrer' href="mailto:dralev@pm.me" target="_blank">Email</a>
+        
+        <span> · </span>
+        
+    
+        <a rel='noopener noreferrer' href="https://twitter.com/dmralev" target="_blank">Twitter</a>
+        
+        <span> · </span>
+        
+    
+        <a rel='noopener noreferrer' href="https://www.last.fm/user/polarisbg" target="_blank">Last.fm</a>
+        
+    
+  
+  </div>
+  <span class="hugo-version">Built with <a rel='noopener noreferrer' href="https://gohugo.io/" target="_blank">Hugo</a></span>
+</footer>
+
+  <script>
+document.addEventListener("DOMContentLoaded",function(){function e(e){document.querySelector("body").className="wrapper "+e,localStorage.setItem("timeOfDay",e)}function t(){var e=new Date
+return e.getHours()>19||e.getHours()<7?"night":"day"}var a=document.querySelectorAll(".circle")
+e(localStorage.getItem("timeOfDay")?localStorage.getItem("timeOfDay"):t()),a.forEach(function(t){t.addEventListener("click",function(){var t=this.dataset.time
+e(t)})})})
+</script>
+
+</div>
+</body>
+</html>

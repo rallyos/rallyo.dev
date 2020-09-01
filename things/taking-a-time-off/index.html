@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>Dimitar Ralev - Taking a Time Off</title>
+  
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,300i,400,400i,500,500i" rel="stylesheet">
+  
+  
+  <link rel="stylesheet" href="https://dimitarralev.net/css/main.min.css">
+</head>
+
+<body>
+<div class="wrapper">
+  <header class="header">
+  <nav>
+    <ul class="nav-list">
+      <li class="nav-list-item"><a class="nav-list-item-link home" href="/">~</a></li>
+      <li class="nav-list-item">
+        <span class="slash-symbol">&nbsp;/ </span>
+        <a class="nav-list-item-link crosslined" href="#">space</a>
+      </li>
+      <li class="nav-list-item">
+        <span class="slash-symbol">&nbsp;/ </span>
+        
+        <a class="nav-list-item-link" href="/things/">things</a>
+        
+      </li>
+    </ul>
+    <div class="day-night-block">
+      <span class="circle toggle-night" data-time="night"></span>
+      <span class="circle-separator">/</span>
+      <span class="circle toggle-day" data-time="day"></span>
+    </div>
+  </nav>
+</header>
+
+  
+  <section class="content-wrap">
+    <header class="post-header">
+      <h1 class="article-heading">Taking a Time Off</h1>
+      <span class="article-date">Thing of the week | Issue 2020-36 | </span> <span class="article-info"> 300 Words </span>
+    </header>
+    <div>
+      <article id="content">
+         <figure>
+    <img src="/img/croods.png"
+         alt="Sitting in park"/> <figcaption>
+            <p>Illustration by <a href="https://blush.design/artists/vijay-verma">Vijay Verma</a></p>
+        </figcaption>
+</figure>
+
+
+<p>Over the last few years, I&rsquo;ve always been taking days off work for specific reasons, mostly traveling and concerts.</p>
+
+<p>So, something strange happened in late July and August that caught me by surprise. Due to various external reasons, I couldn&rsquo;t focus on studying computer science stuff or spend that much time on my laptop during the day, and this forced me to be outside with friends most of the time, it was at the end of this period that I realised that for a first time I wasn&rsquo;t thinking about planning life events, work or chores and how to build my days around them, for a first time I was basically floating free through the days, without the intruding thoughts that I&rsquo;m losing time(even for someone who is unemployed for almost an year).</p>
+
+<p>Even my badly shifted sleep schedule wasn&rsquo;t that much of a problem, I was able to stay until 4-5 in the morning, without beating myself for how unhealthy this is. Going out during the night was a zero anxiety breeze, I wasn&rsquo;t bored staying at bars later than 1am which is totally new for me.</p>
+
+<p>Of course part of this would&rsquo;ve been impossible without being unemployed right now, but I&rsquo;m so grateful that this period made me realise <strong>that all this time maybe I was doing vacations wrong</strong>.</p>
+
+<p>I should always remember that there is always work to do, but free time and time with friends is limited.</p>
+
+      </article>
+    </div>
+  </section>
+  <footer>
+  <div>
+  
+    
+        <a rel='noopener noreferrer' href="mailto:dralev@pm.me" target="_blank">Email</a>
+        
+        <span> · </span>
+        
+    
+        <a rel='noopener noreferrer' href="https://twitter.com/dmralev" target="_blank">Twitter</a>
+        
+        <span> · </span>
+        
+    
+        <a rel='noopener noreferrer' href="https://www.last.fm/user/polarisbg" target="_blank">Last.fm</a>
+        
+    
+  
+  </div>
+  <span class="hugo-version">Built with <a rel='noopener noreferrer' href="https://gohugo.io/" target="_blank">Hugo</a></span>
+</footer>
+
+  <script>
+document.addEventListener("DOMContentLoaded",function(){function e(e){document.querySelector("body").className="wrapper "+e,localStorage.setItem("timeOfDay",e)}function t(){var e=new Date
+return e.getHours()>19||e.getHours()<7?"night":"day"}var a=document.querySelectorAll(".circle")
+e(localStorage.getItem("timeOfDay")?localStorage.getItem("timeOfDay"):t()),a.forEach(function(t){t.addEventListener("click",function(){var t=this.dataset.time
+e(t)})})})
+</script>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>Dimitar Ralev - Having a Cheat/Reward Days</title>
+  
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,300i,400,400i,500,500i" rel="stylesheet">
+  
+  
+  <link rel="stylesheet" href="https://dimitarralev.net/css/main.min.css">
+</head>
+
+<body>
+<div class="wrapper">
+  <header class="header">
+  <nav>
+    <ul class="nav-list">
+      <li class="nav-list-item"><a class="nav-list-item-link home" href="/">~</a></li>
+      <li class="nav-list-item">
+        <span class="slash-symbol">&nbsp;/ </span>
+        <a class="nav-list-item-link crosslined" href="#">space</a>
+      </li>
+      <li class="nav-list-item">
+        <span class="slash-symbol">&nbsp;/ </span>
+        
+        <a class="nav-list-item-link" href="/things/">things</a>
+        
+      </li>
+    </ul>
+    <div class="day-night-block">
+      <span class="circle toggle-night" data-time="night"></span>
+      <span class="circle-separator">/</span>
+      <span class="circle toggle-day" data-time="day"></span>
+    </div>
+  </nav>
+</header>
+
+  
+  <section class="content-wrap">
+    <header class="post-header">
+      <h1 class="article-heading">Having a Cheat/Reward Days</h1>
+      <span class="article-date">Thing of the week | Issue 2020-31 | </span> <span class="article-info"> 200 Words </span>
+    </header>
+    <div>
+      <article id="content">
+         <figure>
+    <img src="/img/the-munchies.png"
+         alt="Burger, Lemonade, Sauces"/> <figcaption>
+            <p>Illustration by <a href="https://blush.design/artists/elsma-ramirez">Elsma Ramirez</a></p>
+        </figcaption>
+</figure>
+
+
+<p>I&rsquo;ve been working out three times a week for more 10 months now, but it wasn&rsquo;t until I moved to a stricter diet and daily workouts, that I found out how fun and important <del>cheat</del> reward days can be.</p>
+
+<p>Up until now, the weekend was my time to rest and basically do whatever I want, but I was still avoiding fatty and excessively sugared foods.</p>
+
+<p>Fortunately, I found out that by working harder, it&rsquo;s really enjoying to have a <del>cheat</del> reward days/nights as a prize for your dedication. Days where I can just sit down with junk food and watch a tv show.</p>
+
+<p>The best thing about this approach is that it enforces a positive feedback loop where you start to work harder, knowing that at the end of the week you can reward yourself with whatever you want because you&rsquo;ve deserved it, right?</p>
+
+<p>Not gonna lie, foods and free time taste best when they are earned.</p>
+
+      </article>
+    </div>
+  </section>
+  <footer>
+  <div>
+  
+    
+        <a rel='noopener noreferrer' href="mailto:dralev@pm.me" target="_blank">Email</a>
+        
+        <span> · </span>
+        
+    
+        <a rel='noopener noreferrer' href="https://twitter.com/dmralev" target="_blank">Twitter</a>
+        
+        <span> · </span>
+        
+    
+        <a rel='noopener noreferrer' href="https://www.last.fm/user/polarisbg" target="_blank">Last.fm</a>
+        
+    
+  
+  </div>
+  <span class="hugo-version">Built with <a rel='noopener noreferrer' href="https://gohugo.io/" target="_blank">Hugo</a></span>
+</footer>
+
+  <script>
+document.addEventListener("DOMContentLoaded",function(){function e(e){document.querySelector("body").className="wrapper "+e,localStorage.setItem("timeOfDay",e)}function t(){var e=new Date
+return e.getHours()>19||e.getHours()<7?"night":"day"}var a=document.querySelectorAll(".circle")
+e(localStorage.getItem("timeOfDay")?localStorage.getItem("timeOfDay"):t()),a.forEach(function(t){t.addEventListener("click",function(){var t=this.dataset.time
+e(t)})})})
+</script>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>Dimitar Ralev - Illustrations for Everyone</title>
+  
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,300i,400,400i,500,500i" rel="stylesheet">
+  
+  
+  <link rel="stylesheet" href="https://dimitarralev.net/css/main.min.css">
+</head>
+
+<body>
+<div class="wrapper">
+  <header class="header">
+  <nav>
+    <ul class="nav-list">
+      <li class="nav-list-item"><a class="nav-list-item-link home" href="/">~</a></li>
+      <li class="nav-list-item">
+        <span class="slash-symbol">&nbsp;/ </span>
+        <a class="nav-list-item-link crosslined" href="#">space</a>
+      </li>
+      <li class="nav-list-item">
+        <span class="slash-symbol">&nbsp;/ </span>
+        
+        <a class="nav-list-item-link" href="/things/">things</a>
+        
+      </li>
+    </ul>
+    <div class="day-night-block">
+      <span class="circle toggle-night" data-time="night"></span>
+      <span class="circle-separator">/</span>
+      <span class="circle toggle-day" data-time="day"></span>
+    </div>
+  </nav>
+</header>
+
+  
+  <section class="content-wrap">
+    <header class="post-header">
+      <h1 class="article-heading">Illustrations for Everyone</h1>
+      <span class="article-date">Thing of the week | Issue 2020-33 | </span> <span class="article-info"> 200 Words </span>
+    </header>
+    <div>
+      <article id="content">
+         <figure>
+    <img src="/img/fancy-plants.png"
+         alt="Fancy plants"/> <figcaption>
+            <p>Illustration by <a href="https://blush.design/artists/susana-ortiz">Susana Ortiz</a></p>
+        </figcaption>
+</figure>
+
+
+<p>Time has finally come for the second &ldquo;thing of the week&rdquo; about tooling.</p>
+
+<p>Over the years I&rsquo;ve bookmarked various services which provide quality and free illustrations (perfect for side projects) and it wasn&rsquo;t until this month that I finally used one of them for a project I&rsquo;ve been working on.</p>
+
+<p>There are probably more out there, but here are the ones I&rsquo;ve tried so far:</p>
+
+<p><a href="https://blush.design/">Blush</a> - <em>&ldquo;Create, mix, and customise illustrations made by artists around the world.&rdquo;</em></p>
+
+<p>I imagine using this a lot for a blog posts that need such illustrations, also not exactly free as you need a paid plan to have access to all illustrations.</p>
+
+<p><a href="https://www.humaaans.com/">humaaans</a> - <em>&ldquo;Mix-&amp;-match illustrations of people with a design library&rdquo;</em></p>
+
+<p>Can also be used in blush, but you can take the library for a free or the price you want, only from this site.</p>
+
+<p><a href="https://undraw.co/illustrations">unDraw</a> - <em>&ldquo;Open-source illustrations for any idea you can imagine and create.&rdquo;</em></p>
+
+<p>Absolutely great for quick bootstrapping of side projects.</p>
+
+<p><strong>Don&rsquo;t forget to pay it forward and always credit the artists if you are using their work for free!</strong></p>
+
+      </article>
+    </div>
+  </section>
+  <footer>
+  <div>
+  
+    
+        <a rel='noopener noreferrer' href="mailto:dralev@pm.me" target="_blank">Email</a>
+        
+        <span> · </span>
+        
+    
+        <a rel='noopener noreferrer' href="https://twitter.com/dmralev" target="_blank">Twitter</a>
+        
+        <span> · </span>
+        
+    
+        <a rel='noopener noreferrer' href="https://www.last.fm/user/polarisbg" target="_blank">Last.fm</a>
+        
+    
+  
+  </div>
+  <span class="hugo-version">Built with <a rel='noopener noreferrer' href="https://gohugo.io/" target="_blank">Hugo</a></span>
+</footer>
+
+  <script>
+document.addEventListener("DOMContentLoaded",function(){function e(e){document.querySelector("body").className="wrapper "+e,localStorage.setItem("timeOfDay",e)}function t(){var e=new Date
+return e.getHours()>19||e.getHours()<7?"night":"day"}var a=document.querySelectorAll(".circle")
+e(localStorage.getItem("timeOfDay")?localStorage.getItem("timeOfDay"):t()),a.forEach(function(t){t.addEventListener("click",function(){var t=this.dataset.time
+e(t)})})})
+</script>
+
+</div>
+</body>
+</html>
