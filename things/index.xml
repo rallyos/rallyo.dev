@@ -6,10 +6,19 @@
     <description>Recent content on Dimitar Ralev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 31 Aug 2020 20:47:25 +0300</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://dimitarralev.net/things/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Codewars</title>
+      <link>https://dimitarralev.net/things/codewars/</link>
+      <pubDate>Tue, 22 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://dimitarralev.net/things/codewars/</guid>
+      <description>Around 7 years ago when I was already deep down in the jungle of becoming a self-taught software engineer, I don&amp;rsquo;t remember how, but I&amp;rsquo;ve stumbled on checkio. At that time it had support only for Python (my first language).</description>
+    </item>
     
     <item>
       <title>Taking a Time Off</title>

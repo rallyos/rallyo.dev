@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>Dimitar Ralev - Codewars</title>
+  
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,300i,400,400i,500,500i" rel="stylesheet">
+  
+  
+  <link rel="stylesheet" href="https://dimitarralev.net/css/main.min.css">
+</head>
+
+<body>
+<div class="wrapper">
+  <header class="header">
+  <nav>
+    <ul class="nav-list">
+      <li class="nav-list-item"><a class="nav-list-item-link home" href="/">~</a></li>
+      <li class="nav-list-item">
+        <span class="slash-symbol">&nbsp;/ </span>
+        <a class="nav-list-item-link crosslined" href="#">space</a>
+      </li>
+      <li class="nav-list-item">
+        <span class="slash-symbol">&nbsp;/ </span>
+        
+        <a class="nav-list-item-link" href="/things/">things</a>
+        
+      </li>
+    </ul>
+    <div class="day-night-block">
+      <span class="circle toggle-night" data-time="night"></span>
+      <span class="circle-separator">/</span>
+      <span class="circle toggle-day" data-time="day"></span>
+    </div>
+  </nav>
+</header>
+
+  
+  <section class="content-wrap">
+    <header class="post-header">
+      <h1 class="article-heading">Codewars</h1>
+      <span class="article-date">Thing of the week | Issue 2020-37 | </span> <span class="article-info"> 300 Words </span>
+    </header>
+    <div>
+      <article id="content">
+         <p><a href="https://codewars.com"><img src="/img/codewars.jpg" alt="Codewars" /></a></p>
+
+<p>Around 7 years ago when I was already deep down in the jungle of becoming a self-taught software engineer, I don&rsquo;t remember how, but I&rsquo;ve stumbled on <a href="https://checkio.org/">checkio</a>. At that time it had support only for Python (my first language).
+<a href="https://checkio.org/">Checkio</a> was centered around islands with creative stories and varying difficulty, providing a set of missions (coding challenges).</p>
+
+<p>I still remember how hard was to do the beginner challenges and how much time I spent on the last of the beginner series - finding a path to the end in a maze (adjacency list graph). I loved the animation they&rsquo;ve provided along with the editor, so refactoring my solution was like playing a game.</p>
+
+<p>Knowing that this approach to learning works for me, over the recent years I&rsquo;ve looked for services that are built around the same idea, only with more languages. That&rsquo;s how I found <a href="https://codewars.com">Codewars</a> a while ago.</p>
+
+<p><a href="https://codewars.com">Codewars</a> is mostly community driven, you can solve katas (challenges) but you can also author katas yourself (you are actively encouraged to do so) or translate katas to other programming languages, opening them to more people that way. The challenges also have difficulty, so the interface offers you a choice to either solve katas for your current level or rank up with more difficult ones. Probably the biggest plus is that you can see how other people solved a problem you&rsquo;ve just tackled, that way you can learn a best practice or a language method you didn&rsquo;t knew before.</p>
+
+<p><a href="https://codewars.com">Codewars</a> is this weeks thing because right now it helps me a lot to get back in shape after spending two months away from coding and also has a main role in keeping my language knowledge fresh. It already did wonders to my Ruby skills!</p>
+
+      </article>
+    </div>
+  </section>
+  <footer>
+  <div>
+  
+    
+        <a rel='noopener noreferrer' href="mailto:dralev@pm.me" target="_blank">Email</a>
+        
+        <span> · </span>
+        
+    
+        <a rel='noopener noreferrer' href="https://twitter.com/dmralev" target="_blank">Twitter</a>
+        
+        <span> · </span>
+        
+    
+        <a rel='noopener noreferrer' href="https://www.last.fm/user/polarisbg" target="_blank">Last.fm</a>
+        
+    
+  
+  </div>
+  <span class="hugo-version">Built with <a rel='noopener noreferrer' href="https://gohugo.io/" target="_blank">Hugo</a></span>
+</footer>
+
+  <script>
+document.addEventListener("DOMContentLoaded",function(){function e(e){document.querySelector("body").className="wrapper "+e,localStorage.setItem("timeOfDay",e)}function t(){var e=new Date
+return e.getHours()>19||e.getHours()<7?"night":"day"}var a=document.querySelectorAll(".circle")
+e(localStorage.getItem("timeOfDay")?localStorage.getItem("timeOfDay"):t()),a.forEach(function(t){t.addEventListener("click",function(){var t=this.dataset.time
+e(t)})})})
+</script>
+
+</div>
+</body>
+</html>
