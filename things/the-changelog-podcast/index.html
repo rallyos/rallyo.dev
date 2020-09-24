@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>Dimitar Ralev - The Changelog Podcast</title>
+  
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,300i,400,400i,500,500i" rel="stylesheet">
+  
+  
+  <link rel="stylesheet" href="https://dimitarralev.net/css/main.min.css">
+</head>
+
+<body>
+<div class="wrapper">
+  <header class="header">
+  <nav>
+    <ul class="nav-list">
+      <li class="nav-list-item"><a class="nav-list-item-link home" href="/">~</a></li>
+      <li class="nav-list-item">
+        <span class="slash-symbol">&nbsp;/ </span>
+        <a class="nav-list-item-link crosslined" href="#">space</a>
+      </li>
+      <li class="nav-list-item">
+        <span class="slash-symbol">&nbsp;/ </span>
+        
+        <a class="nav-list-item-link" href="/things/">things</a>
+        
+      </li>
+    </ul>
+    <div class="day-night-block">
+      <span class="circle toggle-night" data-time="night"></span>
+      <span class="circle-separator">/</span>
+      <span class="circle toggle-day" data-time="day"></span>
+    </div>
+  </nav>
+</header>
+
+  
+  <section class="content-wrap">
+    <header class="post-header">
+      <h1 class="article-heading">The Changelog Podcast</h1>
+      <span class="article-date">Thing of the week | Issue 2020-38 | </span> <span class="article-info"> 300 Words </span>
+    </header>
+    <div>
+      <article id="content">
+         <p>Usually I don&rsquo;t have time for podcasts, it&rsquo;s not that I can&rsquo;t find interesting ones, I just don&rsquo;t have the habit of investing time in them I guess.
+But there&rsquo;s one podcast that I just can&rsquo;t stop following - <a href="https://changelog.com">The Changelog</a>.</p>
+
+<p>On their site the show is promoted as <strong>Conversations with the hackers, leaders, and innovators of software development</strong>.<br />
+It&rsquo;s the only podcast with which I have a fear of missing out relationship. I often have periods in which I listen episodes almost daily, but then I change something in my daily routine and I just forget about it or I just want to listen to music instead. <strong>But whenever I decide to pick it up again, I always pick up from where I left off. No skipping.</strong></p>
+
+<p>For example these weeks I&rsquo;m listening to episodes almost on a daily basis, but I&rsquo;m still more than 2 years behind. The last episode I finished was recorded in June of 2018.</p>
+
+<p>I highly recommend the podcast, it&rsquo;s a great place to hear about projects you didn&rsquo;t knew about, hear stories from creators of widely popular ones, or follow a discussions about everything related to open source. <a href="https://changelog.com/podcasts">They also produce other interesting podcasts</a>.</p>
+
+<p>Another thing I can praise them about is the <a href="https://changelog.com/weekly">weekly newsletter</a> they maintain.
+It&rsquo;s my favourite newsletter (and I follow around 5). It always has something interesting to bookmark for later. The links they share are especially useful for me, as I don&rsquo;t visit HackerNews, so it&rsquo;s nice to have the currently popular posts/projects directly sent to your email.</p>
+
+      </article>
+    </div>
+  </section>
+  <footer>
+  <div>
+  
+    
+        <a rel='noopener noreferrer' href="mailto:dralev@pm.me" target="_blank">Email</a>
+        
+        <span> · </span>
+        
+    
+        <a rel='noopener noreferrer' href="https://twitter.com/dmralev" target="_blank">Twitter</a>
+        
+        <span> · </span>
+        
+    
+        <a rel='noopener noreferrer' href="https://www.last.fm/user/polarisbg" target="_blank">Last.fm</a>
+        
+    
+  
+  </div>
+  <span class="hugo-version">Built with <a rel='noopener noreferrer' href="https://gohugo.io/" target="_blank">Hugo</a></span>
+</footer>
+
+  <script>
+document.addEventListener("DOMContentLoaded",function(){function e(e){document.querySelector("body").className="wrapper "+e,localStorage.setItem("timeOfDay",e)}function t(){var e=new Date
+return e.getHours()>19||e.getHours()<7?"night":"day"}var a=document.querySelectorAll(".circle")
+e(localStorage.getItem("timeOfDay")?localStorage.getItem("timeOfDay"):t()),a.forEach(function(t){t.addEventListener("click",function(){var t=this.dataset.time
+e(t)})})})
+</script>
+
+</div>
+</body>
+</html>
