@@ -6,10 +6,20 @@
     <description>Recent content on Dimitar Ralev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 23 Sep 2020 19:05:10 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2020 20:21:36 +0300</lastBuildDate>
     
 	<atom:link href="https://dimitarralev.net/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Forest</title>
+      <link>https://dimitarralev.net/things/forest/</link>
+      <pubDate>Mon, 05 Oct 2020 20:21:36 +0300</pubDate>
+      
+      <guid>https://dimitarralev.net/things/forest/</guid>
+      <description>Here we go, another productivity app.
+This week&amp;rsquo;s thing is an app called Forest, which as kind of popular and I&amp;rsquo;m late to the party but I just found out how it can help me.</description>
+    </item>
     
     <item>
       <title>Notebooks</title>
