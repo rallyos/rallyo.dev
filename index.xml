@@ -6,10 +6,19 @@
     <description>Recent content on Dimitar Ralev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 20 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://dimitarralev.net/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Inter Typeface</title>
+      <link>https://dimitarralev.net/things/inter-typeface/</link>
+      <pubDate>Tue, 27 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://dimitarralev.net/things/inter-typeface/</guid>
+      <description>A few years I back I loved to check what font people used for their site, I even had browser extension for this purpose, it could tell me the font just by pointing to the text I was interested in.</description>
+    </item>
     
     <item>
       <title>Brain Fm</title>
