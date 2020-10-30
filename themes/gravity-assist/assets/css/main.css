@@ -40,7 +40,7 @@ figcaption > p {
   color: #343534;
 }
 .night {
-  background: #1A1A1A;
+  background: #333333;
   color: #fff;
 }
 .night a {
@@ -97,8 +97,8 @@ a:hover {
   box-sizing: border-box;
 }
 .toggle-night {
-  background: #1A1A1A;
-  border: solid 2px #343534;
+  background: #333333;
+  border: solid 2px #272727;
 }
 .toggle-day {
   background: #fff;
