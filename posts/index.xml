@@ -2,59 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dimitar Ralev</title>
-    <link>https://dimitarralev.net/posts/</link>
+    <link>https://shifting-photons.dev/posts/</link>
     <description>Recent content on Dimitar Ralev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 24 May 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://dimitarralev.net/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://shifting-photons.dev/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Starting a new “Things” series</title>
-      <link>https://dimitarralev.net/posts/starting-a-new-things-series/</link>
+      <link>https://shifting-photons.dev/posts/starting-a-new-things-series/</link>
       <pubDate>Sun, 24 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://dimitarralev.net/posts/starting-a-new-things-series/</guid>
+      <guid>https://shifting-photons.dev/posts/starting-a-new-things-series/</guid>
       <description>It’s probably hard to count how many services are out there on the internet, for the sole purpose of sharing interesting links (they will even reward you with some kind of cute virtual) and yet, I decided to start a weekly article series on doing the exact same thing, here…</description>
     </item>
     
     <item>
       <title>The spirit of 2014 - Warpaint</title>
-      <link>https://dimitarralev.net/posts/warpaint/</link>
+      <link>https://shifting-photons.dev/posts/warpaint/</link>
       <pubDate>Wed, 31 Dec 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://dimitarralev.net/posts/warpaint/</guid>
+      <guid>https://shifting-photons.dev/posts/warpaint/</guid>
       <description>I remember that I first heard Warpaint early this year. I assume that I just followed some pitchfork link to their new single, maybe because I thought that their name is cool.
 Sure, I hardly imagined that about year later - on 31st of December, I will be writing about them.</description>
     </item>
     
     <item>
       <title>Bookmarko - Learning by doing</title>
-      <link>https://dimitarralev.net/posts/bookmarko/</link>
+      <link>https://shifting-photons.dev/posts/bookmarko/</link>
       <pubDate>Thu, 17 Oct 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://dimitarralev.net/posts/bookmarko/</guid>
+      <guid>https://shifting-photons.dev/posts/bookmarko/</guid>
       <description>Months before I started Tuesday(The WordPress theme), I was thinking about ideas for a serious project and most of the time the word that was coming to my mind was Bookmarking.
 At this time, when I find something interesting on the internet, I had to open gmail and send the links to myself.</description>
     </item>
     
     <item>
       <title>On making Tuesday from the second try</title>
-      <link>https://dimitarralev.net/posts/tuesday/</link>
+      <link>https://shifting-photons.dev/posts/tuesday/</link>
       <pubDate>Fri, 04 Oct 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://dimitarralev.net/posts/tuesday/</guid>
+      <guid>https://shifting-photons.dev/posts/tuesday/</guid>
       <description>Short personal story I remember the day very clear. Previous night I decided to get up early, go to Costa Coffee, and start the project. My plans were to finish it in one month, deadline that now sounds to me very optimistic, given the fact that I finished Tuesday in month and a half.</description>
     </item>
     
     <item>
       <title>Simplexpenses - The battle of the frameworks</title>
-      <link>https://dimitarralev.net/posts/simplexpenses/</link>
+      <link>https://shifting-photons.dev/posts/simplexpenses/</link>
       <pubDate>Thu, 24 Jan 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://dimitarralev.net/posts/simplexpenses/</guid>
+      <guid>https://shifting-photons.dev/posts/simplexpenses/</guid>
       <description>After the release of the early Bookmarko version, I started to look around for the next idea that would be interesting to be made and also to help me learn some new developer tools. That&amp;rsquo;s why my approach was more &amp;ldquo;Let&amp;rsquo;s see how this will work&amp;rdquo; than to make a full working app.</description>
     </item>
     
