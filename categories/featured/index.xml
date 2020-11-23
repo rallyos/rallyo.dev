@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>featured on Dimitar Ralev</title>
-    <link>https://shifting-photons.dev/categories/featured/</link>
+    <link>https://shiftingphotons.dev/categories/featured/</link>
     <description>Recent content in featured on Dimitar Ralev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 24 Jan 2013 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://shifting-photons.dev/categories/featured/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://shiftingphotons.dev/categories/featured/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Simplexpenses - The battle of the frameworks</title>
-      <link>https://shifting-photons.dev/posts/simplexpenses/</link>
+      <link>https://shiftingphotons.dev/posts/simplexpenses/</link>
       <pubDate>Thu, 24 Jan 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://shifting-photons.dev/posts/simplexpenses/</guid>
+      <guid>https://shiftingphotons.dev/posts/simplexpenses/</guid>
       <description>After the release of the early Bookmarko version, I started to look around for the next idea that would be interesting to be made and also to help me learn some new developer tools. That&amp;rsquo;s why my approach was more &amp;ldquo;Let&amp;rsquo;s see how this will work&amp;rdquo; than to make a full working app.</description>
     </item>
     
