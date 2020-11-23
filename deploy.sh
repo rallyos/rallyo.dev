@@ -17,7 +17,7 @@ hugo -t gravity-assist
 
 echo "Setting up git credentials"
 remote_repo="https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
-git config --local user.email "shifting-photons@users.noreply.github.com"
+git config --local user.email "shiftingphotons@users.noreply.github.com"
 git config --local user.name "Dimitar Ralev"
 
 
