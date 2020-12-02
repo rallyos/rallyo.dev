@@ -3,7 +3,7 @@
   {{ range $.Site.Data }}
     {{ range $index, $element := .networks.links }}
         <a rel='noopener noreferrer' href="{{ .url }}" target="_blank">{{ .name }}</a>
-        {{ if not (eq $index 2) }}
+        {{ if not (eq $index 3) }}
         <span> · </span>
         {{ end  }}
     {{ end }}

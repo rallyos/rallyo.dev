@@ -1,8 +1,14 @@
 <section class="about">
-	<ul class="featured">
-		<li class="featured-box">
+  <h1 class="about-heading">
+    Hey 👋 I write <a class="about-heading-link" rel="noopener noreferrer"  href="https://github.com/shiftingphotons" target="_blank">software</a>.
+    {{ with $.Site.GetPage "things" }}
+    I also write about <a class="about-heading-link" href="{{ .RelPermalink }}">things</a>.
+    {{ end }}
+  </h1>
+  <ul class="featured">
+    <li class="featured-box">
       <div class="thing-of-week">
-        <i class="fal fa-cookie-bite cookie-icon"></i>
+        <i class="fad fa-sunglasses front-icon"></i>
         {{ with $.Site.GetPage "things" }}
         <h4 class="featured-heading"><a class="article-link" href="{{ .RelPermalink }}">Thing of the week</a></h4>
         {{ end }}
@@ -13,9 +19,10 @@
       {{ range $.Site.Data }}
           {{ partial "work.html" . }}
       {{ end  }}
-		</li>
-		<li class="featured-box">
+    </li>
+    <li class="featured-box">
+      <i class="fal fa-star-shooting front-icon"></i>
       {{ partial "featured-article.html" . }}
-		</li>
-	</ul>
+    </li>
+  </ul>
 </section>

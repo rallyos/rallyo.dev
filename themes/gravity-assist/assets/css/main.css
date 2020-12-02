@@ -1,7 +1,7 @@
 body {
   font-family: "Roboto Mono", monospace;
   font-display: swap;
-  color: #fff;
+  color: #FBF9F4;
   margin: 0;
   font-size: 0.95em;
 }
@@ -33,7 +33,7 @@ figcaption > p {
   margin: 0 auto;
 }
 .day {
-  background: #fff;
+  background: #FBF9F4;
   color: #343534;
 }
 .day a {
@@ -41,10 +41,10 @@ figcaption > p {
 }
 .night {
   background: #333333;
-  color: #fff;
+  color: #FBF9F4;
 }
 .night a {
-  color: #fff;
+  color: #FBF9F4;
 }
 a:hover {
   text-decoration: underline;
@@ -52,6 +52,13 @@ a:hover {
 }
 .header {
   margin-bottom: 20px;
+}
+#logo {
+  margin: 11px 0 8px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
 }
 .nav-list {
   display: inline-block;
@@ -91,7 +98,7 @@ a:hover {
   width: 32px;
   height: 32px;
   border-radius: 16px;
-  background: #fff;
+  background: #FBF9F4;
   float: left;
   cursor: pointer;
   box-sizing: border-box;
@@ -101,7 +108,7 @@ a:hover {
   border: solid 2px #272727;
 }
 .toggle-day {
-  background: #fff;
+  background: #FBF9F4;
   border: solid 2px #343534;
 }
 .circle-separator {
@@ -125,21 +132,18 @@ a:hover {
   margin-bottom: 40px;
   padding-bottom: 10px;
   border-bottom: solid 1px #D25D46;
-  font-weight: 300;
+  font-weight: 400;
   text-transform: capitalize;
   cursor: default;
 }
-.moon-stars-icon,
-.cookie-icon,
-.pizza-icon,
-.forklift-icon {
+.front-icon {
   font-size: 2em;
   display: block;
   margin: 0 auto;
   width: 31px;
   height: 31px;
 }
-.brackets-icon, .paper-plane-icon {
+.posts-icon {
   color: #D25D46;
 }
 .article-box {
@@ -148,7 +152,7 @@ a:hover {
   text-align: center;
 }
 .article-link {
-  color: #fff;
+  color: #FBF9F4;
   text-decoration: none;
   cursor: pointer;
 }
@@ -168,6 +172,16 @@ a:hover {
 }
 .about {
 
+}
+.about-heading {
+  text-align: center;
+  font-weight: 300;
+  font-size: 1.75em;
+}
+.night .about-heading-link,
+.day .about-heading-link {
+  font-weight: 400;
+  color: #D45C41;
 }
 .featured {
   width: 100%;
@@ -246,6 +260,43 @@ a:hover {
 .list-posts-item-date {
   margin-top: 5px;
 }
+.things-introduction {
+  margin-top: 2em;
+}
+.featured-things-wrapper {
+  width: 100%;
+  margin: 2em 0 4em;
+  display: flex;
+  justify-content: space-around;
+}
+.featured-thing {
+  width: 30%;
+  height: 50px;
+  padding: 0.5em;
+  color: #D45C41;
+  border: dotted 1px #D45C41;
+}
+.featured-thing-headings {
+  text-align: right;
+}
+.featured-thing-title,
+.featured-thing-issue {
+  width: 90%;
+  display: inline-block;
+  margin: 0;
+}
+.night .featured-thing-issue > a {
+  color: #FBF9F4;
+}
+.day .featured-thing-issue > a {
+  color: #343534;
+}
+.featured-thing-pin {
+  float: left;
+  margin: 0.25em;
+  font-size: 1.6em;
+  color: #D25D46;
+}
 
 footer {
   margin-top: 40px;
@@ -266,7 +317,7 @@ footer {
 }
 ::selection {
   background: rgba(204, 63, 32, 0.85);
-  color: #fff;
+  color: #FBF9F4;
 }
 
 @media screen and (max-width: 1040px) {

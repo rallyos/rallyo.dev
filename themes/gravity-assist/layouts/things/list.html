@@ -4,6 +4,23 @@
   {{ partial "header.html" . }}
   {{ $baseURL := .Site.BaseURL }}
   <section class="content-wrap">
+    <div class="things-introduction">
+        <p style="text-align: center;">
+        <strong>“Thing of the week”</strong> is a journal like section where I write about something important from my week worthy enough to be shared. Most of the time it follows the format of <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/playlist?list=PLZIExsLcds6096FjqXQ492ksfXg2ZvrsM">Extremely my shit</a> and <a target="_blank" rel="noopener noreferrer" href="https://theoutline.com/post/7519/a-good-place-where-motivation-fails-discipline-succeeds">A good place</a>,
+        which are the main inspiration behind these series.
+        </p>
+    </div>
+    <div class="featured-things-wrapper">
+    {{ range first 3 (where .Data.Pages.ByDate.Reverse "Params.pinned" "true") }}
+      <div class="featured-thing">
+        <i class="fal fa-map-pin featured-thing-pin"></i>
+        <hgroup class="featured-thing-headings">
+          <h5 class="featured-thing-title"><a href="{{ .RelPermalink  }}">{{ .Title }}</a></h5>
+          <h5 class="featured-thing-issue"><a href="{{ .RelPermalink  }}">{{ .Params.Issue }}</a></h5>
+        </hgroup>
+      </div>
+    {{ end }}
+    </div>
     <div class="list-posts-box">
         {{ range .Data.Pages.ByDate.Reverse }}
           <article class="list-posts-item">

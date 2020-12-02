@@ -2,6 +2,7 @@
 title       = "Habitica"
 date        = 2020-06-02
 issue       = "2020-22"
+pinned      = "true"
 +++
 
 ![Habitica example board](/img/habitica-board.png)

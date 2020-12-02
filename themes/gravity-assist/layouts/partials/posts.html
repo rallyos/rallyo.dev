@@ -3,12 +3,12 @@
   {{ if not (eq $taxonomy.Name "featured") }}
   <div class="posts-list">
     <h3 class="posts-category">
-      {{ $taxonomy.Name }}
       {{ if eq $taxonomy.Name "projects" }}
-      <i class="fad fa-brackets-curly brackets-icon"></i>
+      <i class="fad fa-brackets-curly posts-icon"></i>
       {{ else if eq $taxonomy.Name "personal" }}
-      <i class="fad fa-paper-plane paper-plane-icon"></i>
+      <i class="fal fa-typewriter posts-icon"></i>
       {{ end }}
+      {{ $taxonomy.Name }}
     </h3>
     {{ range first 2 (where $taxonomy.Pages.ByDate.Reverse "Section" "posts") }}
       <article class="article-box">

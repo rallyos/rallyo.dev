@@ -1,5 +1,9 @@
 <header class="header">
-  <nav>
+  <nav class="nav">
+    <div>
+      {{ $logo := resources.Get "img/logo.svg" }}
+      <a href="/"><img id="logo" src="{{ $logo.Permalink }}" height="28"/></a>
+    </div>
     <ul class="nav-list">
       <li class="nav-list-item"><a class="nav-list-item-link home" href="/">~</a></li>
       <li class="nav-list-item">

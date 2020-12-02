@@ -2,6 +2,7 @@
 title       = "Beach House - Bloom"
 date        = 2020-11-14T19:46:40+02:00
 issue       = "2020-44"
+pinned      = "true"
 +++
 
 [![Beach House - Bloom][image-1]][1]
