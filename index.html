@@ -9,15 +9,23 @@
   <meta name="description" content="My internet treehouse.">
   
   <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,300i,400,400i,500,500i" rel="stylesheet">
+
   
   
   <link rel="stylesheet" href="https://shiftingphotons.dev/css/main.min.css">
+  <link href="/fonts/fa/css/fontawesome.min.css" rel="stylesheet">
+  <link href="/fonts/fa/css/duotone.min.css" rel="stylesheet">
+  <link href="/fonts/fa/css/light.min.css" rel="stylesheet">
 </head>
 
 <body class="wrapper">
   <div>
     <header class="header">
-  <nav>
+  <nav class="nav">
+    <div>
+      
+      <a href="/"><img id="logo" src="https://shiftingphotons.dev/img/logo.svg" height="28"/></a>
+    </div>
     <ul class="nav-list">
       <li class="nav-list-item"><a class="nav-list-item-link home" href="/">~</a></li>
       <li class="nav-list-item">
@@ -40,10 +48,16 @@
 </header>
 
     <section class="about">
-	<ul class="featured">
-		<li class="featured-box">
+  <h1 class="about-heading">
+    Hey 👋 I write <a class="about-heading-link" rel="noopener noreferrer"  href="https://github.com/shiftingphotons" target="_blank">software</a>.
+    
+    I also write about <a class="about-heading-link" href="/things/">things</a>.
+    
+  </h1>
+  <ul class="featured">
+    <li class="featured-box">
       <div class="thing-of-week">
-        <i class="fal fa-cookie-bite cookie-icon"></i>
+        <i class="fad fa-sunglasses front-icon"></i>
         
         <h4 class="featured-heading"><a class="article-link" href="/things/">Thing of the week</a></h4>
         
@@ -54,34 +68,34 @@
       
           
 <div class="recent-work">
-  <i class="fal fa-forklift forklift-icon"></i></i>
+  <i class="fad fa-digging front-icon"></i></i>
   <h4 class="featured-heading">Recently working on</h4>
     <div>
     
-        <a rel='noopener noreferrer' href="https://shiftingphotons.dev" target="_blank">this site</a>
+        <a rel='noopener noreferrer' href="https://subalogue.shiftingphotons.dev" target="_blank">Subalogue</a>
         
     
     </div>
 </div>
 
       
-		</li>
-		<li class="featured-box">
-      <i class="fal fa-moon-stars moon-stars-icon"></i>
-  
-  <article class="featured-article-box">
-    <div class="summary">
-      <h4><a class="article-link" href="/posts/simplexpenses/">Simplexpenses - The battle of the frameworks</a></h4>
-      <p class="article-summary-text">After the release of the early Bookmarko version, I started to look around for the next idea that would be interesting to be made and also to help me learn some new developer tools. That&rsquo;s why my approach was more &ldquo;Let&rsquo;s see how this will work&rdquo; than to make a full working app.</p>
-    </div>
-    <div class="read-more-link">
-      <a href="/posts/simplexpenses/">Read More…</a>
-    </div>
-  </article>
+    </li>
+    <li class="featured-box">
+      <i class="fal fa-star-shooting front-icon"></i>
+      
+<article class="featured-article-box">
+  <div class="summary">
+    <h4><a class="article-link" href="/posts/simplexpenses/">Simplexpenses - The battle of the frameworks</a></h4>
+    <p class="article-summary-text">After the release of the early Bookmarko version, I started to look around for the next idea that would be interesting to be made and also to help me learn some new developer tools. That&rsquo;s why my approach was more &ldquo;Let&rsquo;s see how this will work&rdquo; than to make a full working app.</p>
+  </div>
+  <div class="read-more-link">
+    <a href="/posts/simplexpenses/">Read More…</a>
+  </div>
+</article>
 
 
-		</li>
-	</ul>
+    </li>
+  </ul>
 </section>
 
     <section class="posts">
@@ -89,10 +103,10 @@
   
   <div class="posts-list">
     <h3 class="posts-category">
+      
+      <i class="fad fa-brackets-curly posts-icon"></i>
+      
       projects
-      
-      <i class="fad fa-brackets-curly brackets-icon"></i>
-      
     </h3>
     
       <article class="article-box">
@@ -125,10 +139,10 @@ At this time, when I find something interesting on the internet, I had to open g
   
   <div class="posts-list">
     <h3 class="posts-category">
+      
+      <i class="fal fa-typewriter posts-icon"></i>
+      
       personal
-      
-      <i class="fad fa-paper-plane paper-plane-icon"></i>
-      
     </h3>
     
       <article class="article-box">
@@ -166,7 +180,12 @@ Sure, I hardly imagined that about year later - on 31st of December, I will be w
   <div>
   
     
-        <a rel='noopener noreferrer' href="mailto:dralev@pm.me" target="_blank">Email</a>
+        <a rel='noopener noreferrer' href="https://github.com/shiftingphotons" target="_blank">GitHub</a>
+        
+        <span> · </span>
+        
+    
+        <a rel='noopener noreferrer' href="mailto:dralev@shiftingphotons.dev" target="_blank">Email</a>
         
         <span> · </span>
         
@@ -185,11 +204,9 @@ Sure, I hardly imagined that about year later - on 31st of December, I will be w
 </footer>
 
   </div>
-  <script src="https://kit.fontawesome.com/aaa26f6133.js" crossorigin="anonymous"></script>
   <script>
-document.addEventListener("DOMContentLoaded",function(){function e(e){document.querySelector("body").className="wrapper "+e,localStorage.setItem("timeOfDay",e)}function t(){var e=new Date
-return e.getHours()>19||e.getHours()<7?"night":"day"}var a=document.querySelectorAll(".circle")
-e(localStorage.getItem("timeOfDay")?localStorage.getItem("timeOfDay"):t()),a.forEach(function(t){t.addEventListener("click",function(){var t=this.dataset.time
+document.addEventListener("DOMContentLoaded",function(){function e(e){document.querySelector("body").className="wrapper "+e}var t=document.querySelectorAll(".circle")
+e(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches?"night":"day"),t.forEach(function(t){t.addEventListener("click",function(){var t=this.dataset.time
 e(t)})})})
 </script>
 

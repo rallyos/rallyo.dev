@@ -8,15 +8,23 @@
   <meta name="description" content="">
   
   <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,300i,400,400i,500,500i" rel="stylesheet">
+
   
   
   <link rel="stylesheet" href="https://shiftingphotons.dev/css/main.min.css">
+  <link href="/fonts/fa/css/fontawesome.min.css" rel="stylesheet">
+  <link href="/fonts/fa/css/duotone.min.css" rel="stylesheet">
+  <link href="/fonts/fa/css/light.min.css" rel="stylesheet">
 </head>
 
 <body>
 <div class="wrapper">
   <header class="header">
-  <nav>
+  <nav class="nav">
+    <div>
+      
+      <a href="/"><img id="logo" src="https://shiftingphotons.dev/img/logo.svg" height="28"/></a>
+    </div>
     <ul class="nav-list">
       <li class="nav-list-item"><a class="nav-list-item-link home" href="/">~</a></li>
       <li class="nav-list-item">
@@ -90,7 +98,12 @@ At this time, when I find something interesting on the internet, I had to open g
   <div>
   
     
-        <a rel='noopener noreferrer' href="mailto:dralev@pm.me" target="_blank">Email</a>
+        <a rel='noopener noreferrer' href="https://github.com/shiftingphotons" target="_blank">GitHub</a>
+        
+        <span> · </span>
+        
+    
+        <a rel='noopener noreferrer' href="mailto:dralev@shiftingphotons.dev" target="_blank">Email</a>
         
         <span> · </span>
         
@@ -109,9 +122,8 @@ At this time, when I find something interesting on the internet, I had to open g
 </footer>
 
   <script>
-document.addEventListener("DOMContentLoaded",function(){function e(e){document.querySelector("body").className="wrapper "+e,localStorage.setItem("timeOfDay",e)}function t(){var e=new Date
-return e.getHours()>19||e.getHours()<7?"night":"day"}var a=document.querySelectorAll(".circle")
-e(localStorage.getItem("timeOfDay")?localStorage.getItem("timeOfDay"):t()),a.forEach(function(t){t.addEventListener("click",function(){var t=this.dataset.time
+document.addEventListener("DOMContentLoaded",function(){function e(e){document.querySelector("body").className="wrapper "+e}var t=document.querySelectorAll(".circle")
+e(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches?"night":"day"),t.forEach(function(t){t.addEventListener("click",function(){var t=this.dataset.time
 e(t)})})})
 </script>
 

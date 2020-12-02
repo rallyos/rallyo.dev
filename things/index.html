@@ -8,15 +8,23 @@
   <meta name="description" content="">
   
   <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,300i,400,400i,500,500i" rel="stylesheet">
+
   
   
   <link rel="stylesheet" href="https://shiftingphotons.dev/css/main.min.css">
+  <link href="/fonts/fa/css/fontawesome.min.css" rel="stylesheet">
+  <link href="/fonts/fa/css/duotone.min.css" rel="stylesheet">
+  <link href="/fonts/fa/css/light.min.css" rel="stylesheet">
 </head>
 
 <body>
 <div class="wrapper">
   <header class="header">
-  <nav>
+  <nav class="nav">
+    <div>
+      
+      <a href="/"><img id="logo" src="https://shiftingphotons.dev/img/logo.svg" height="28"/></a>
+    </div>
     <ul class="nav-list">
       <li class="nav-list-item"><a class="nav-list-item-link home" href="/">~</a></li>
       <li class="nav-list-item">
@@ -40,6 +48,39 @@
 
   
   <section class="content-wrap">
+    <div class="things-introduction">
+        <p style="text-align: center;">
+        <strong>“Thing of the week”</strong> is a journal like section where I write about something important from my week worthy enough to be shared. Most of the time it follows the format of <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/playlist?list=PLZIExsLcds6096FjqXQ492ksfXg2ZvrsM">Extremely my shit</a> and <a target="_blank" rel="noopener noreferrer" href="https://theoutline.com/post/7519/a-good-place-where-motivation-fails-discipline-succeeds">A good place</a>,
+        which are the main inspiration behind these series.
+        </p>
+    </div>
+    <div class="featured-things-wrapper">
+    
+      <div class="featured-thing">
+        <i class="fal fa-map-pin featured-thing-pin"></i>
+        <hgroup class="featured-thing-headings">
+          <h5 class="featured-thing-title"><a href="/things/beach-house-bloom/">Beach House - Bloom</a></h5>
+          <h5 class="featured-thing-issue"><a href="/things/beach-house-bloom/">2020-44</a></h5>
+        </hgroup>
+      </div>
+    
+      <div class="featured-thing">
+        <i class="fal fa-map-pin featured-thing-pin"></i>
+        <hgroup class="featured-thing-headings">
+          <h5 class="featured-thing-title"><a href="/things/waking-up-early/">Waking Up Early</a></h5>
+          <h5 class="featured-thing-issue"><a href="/things/waking-up-early/">2020-43</a></h5>
+        </hgroup>
+      </div>
+    
+      <div class="featured-thing">
+        <i class="fal fa-map-pin featured-thing-pin"></i>
+        <hgroup class="featured-thing-headings">
+          <h5 class="featured-thing-title"><a href="/things/habitica/">Habitica</a></h5>
+          <h5 class="featured-thing-issue"><a href="/things/habitica/">2020-22</a></h5>
+        </hgroup>
+      </div>
+    
+    </div>
     <div class="list-posts-box">
         
           <article class="list-posts-item">
@@ -265,7 +306,12 @@ I will probably sound like one of these cheesy TV shop commercials that want you
   <div>
   
     
-        <a rel='noopener noreferrer' href="mailto:dralev@pm.me" target="_blank">Email</a>
+        <a rel='noopener noreferrer' href="https://github.com/shiftingphotons" target="_blank">GitHub</a>
+        
+        <span> · </span>
+        
+    
+        <a rel='noopener noreferrer' href="mailto:dralev@shiftingphotons.dev" target="_blank">Email</a>
         
         <span> · </span>
         
@@ -284,9 +330,8 @@ I will probably sound like one of these cheesy TV shop commercials that want you
 </footer>
 
   <script>
-document.addEventListener("DOMContentLoaded",function(){function e(e){document.querySelector("body").className="wrapper "+e,localStorage.setItem("timeOfDay",e)}function t(){var e=new Date
-return e.getHours()>19||e.getHours()<7?"night":"day"}var a=document.querySelectorAll(".circle")
-e(localStorage.getItem("timeOfDay")?localStorage.getItem("timeOfDay"):t()),a.forEach(function(t){t.addEventListener("click",function(){var t=this.dataset.time
+document.addEventListener("DOMContentLoaded",function(){function e(e){document.querySelector("body").className="wrapper "+e}var t=document.querySelectorAll(".circle")
+e(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches?"night":"day"),t.forEach(function(t){t.addEventListener("click",function(){var t=this.dataset.time
 e(t)})})})
 </script>
 
