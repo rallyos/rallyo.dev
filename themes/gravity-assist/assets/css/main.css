@@ -132,7 +132,7 @@ a:hover {
   margin-bottom: 40px;
   padding-bottom: 10px;
   border-bottom: solid 1px #D25D46;
-  font-weight: 300;
+  font-weight: 400;
   text-transform: capitalize;
   cursor: default;
 }
@@ -143,7 +143,7 @@ a:hover {
   width: 31px;
   height: 31px;
 }
-.brackets-icon, .paper-plane-icon {
+.posts-icon {
   color: #D25D46;
 }
 .article-box {
