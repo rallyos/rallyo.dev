@@ -1,6 +1,7 @@
 +++
 title       = "Skating in the Night During Pandemic"
 date        = 2020-11-14T19:50:19+02:00
+draft       = true
 issue       = "2020-46"
 +++
 
