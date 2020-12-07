@@ -230,6 +230,10 @@ a:hover {
 #content p {
   margin: 1.4em 0;
 }
+#content p > img {
+  display: block;
+  margin: 0 auto;
+}
 #content blockquote {
   margin-block-start: 0;
   margin-block-end: 0;
