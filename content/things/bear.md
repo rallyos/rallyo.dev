@@ -18,7 +18,5 @@ It covered most of the requirements I have about the apps I use:
 
 I can’t recommend [Bear](https://bear.app) for taking too complex and work-related notes (depends on the field), but I will highly recommend it for everything else. It’s easy to use, syncs across all devices (Apple Ecosystem only, sorry), it has a tagging system, it’s markdown centric, it’s cheap, and it’s beautiful.
 
-Bear is my daily note taking driver for more than 2 years now. I use it on 3 devices. I back up and organise my notes every week. Every idea starts there. The knowledge surrounding every project that I work on is managed there.
-
-I’ve been using it as a personal knowledge wiki. I plan everything around my life there. And I’m not leaving it anytime soon.
+Bear is my daily note taking driver for more than 2 years now. I use it on 3 devices. I back up and organise my notes every week. Every idea starts there. The knowledge surrounding every project that I work on is managed there. I plan everything around my life there. And I’m not leaving it anytime soon.
 
