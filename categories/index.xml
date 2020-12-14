@@ -6,15 +6,24 @@
     <description>Recent content in Categories on Dimitar Ralev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2020 19:51:09 +0200</lastBuildDate>
     
 	<atom:link href="https://shiftingphotons.dev/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>featured</title>
+      <link>https://shiftingphotons.dev/categories/featured/</link>
+      <pubDate>Sat, 28 Nov 2020 19:51:09 +0200</pubDate>
+      
+      <guid>https://shiftingphotons.dev/categories/featured/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>personal</title>
       <link>https://shiftingphotons.dev/categories/personal/</link>
-      <pubDate>Sun, 24 May 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 28 Nov 2020 19:51:09 +0200</pubDate>
       
       <guid>https://shiftingphotons.dev/categories/personal/</guid>
       <description></description>
@@ -26,15 +35,6 @@
       <pubDate>Thu, 17 Oct 2013 00:00:00 +0000</pubDate>
       
       <guid>https://shiftingphotons.dev/categories/projects/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>featured</title>
-      <link>https://shiftingphotons.dev/categories/featured/</link>
-      <pubDate>Thu, 24 Jan 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://shiftingphotons.dev/categories/featured/</guid>
       <description></description>
     </item>
     

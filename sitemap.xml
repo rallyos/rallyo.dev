@@ -34,6 +34,32 @@
   </url>
   
   <url>
+    <loc>https://shiftingphotons.dev/posts/</loc>
+    <lastmod>2020-11-28T19:51:09+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://shiftingphotons.dev/categories/</loc>
+    <lastmod>2020-11-28T19:51:09+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shiftingphotons.dev/categories/featured/</loc>
+    <lastmod>2020-11-28T19:51:09+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shiftingphotons.dev/posts/how-i-spent-my-year-of-unemployment/</loc>
+    <lastmod>2020-11-28T19:51:09+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shiftingphotons.dev/categories/personal/</loc>
+    <lastmod>2020-11-28T19:51:09+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://shiftingphotons.dev/things/skating-in-the-night-during-pandemic/</loc>
     <lastmod>2020-11-14T19:50:19+02:00</lastmod>
   </url>
@@ -159,22 +185,6 @@
   </url>
   
   <url>
-    <loc>https://shiftingphotons.dev/posts/</loc>
-    <lastmod>2020-05-24T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://shiftingphotons.dev/categories/</loc>
-    <lastmod>2020-05-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://shiftingphotons.dev/categories/personal/</loc>
-    <lastmod>2020-05-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://shiftingphotons.dev/posts/starting-a-new-things-series/</loc>
     <lastmod>2020-05-24T00:00:00+00:00</lastmod>
   </url>
@@ -202,11 +212,6 @@
   <url>
     <loc>https://shiftingphotons.dev/posts/tuesday/</loc>
     <lastmod>2013-10-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://shiftingphotons.dev/categories/featured/</loc>
-    <lastmod>2013-01-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>

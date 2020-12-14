@@ -6,18 +6,19 @@
     <description>Recent content in featured on Dimitar Ralev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 24 Jan 2013 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2020 19:51:09 +0200</lastBuildDate>
     
 	<atom:link href="https://shiftingphotons.dev/categories/featured/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Simplexpenses - The battle of the frameworks</title>
-      <link>https://shiftingphotons.dev/posts/simplexpenses/</link>
-      <pubDate>Thu, 24 Jan 2013 00:00:00 +0000</pubDate>
+      <title>How I Spent My Year of Unemployment</title>
+      <link>https://shiftingphotons.dev/posts/how-i-spent-my-year-of-unemployment/</link>
+      <pubDate>Sat, 28 Nov 2020 19:51:09 +0200</pubDate>
       
-      <guid>https://shiftingphotons.dev/posts/simplexpenses/</guid>
-      <description>After the release of the early Bookmarko version, I started to look around for the next idea that would be interesting to be made and also to help me learn some new developer tools. That&amp;rsquo;s why my approach was more &amp;ldquo;Let&amp;rsquo;s see how this will work&amp;rdquo; than to make a full working app.</description>
+      <guid>https://shiftingphotons.dev/posts/how-i-spent-my-year-of-unemployment/</guid>
+      <description>A little more than a year ago, after a fun 5-year ride, I left Melon.
+It wasn’t a spur of the moment decision, but something that I was planning for almost 2 years. In the end it was just hard to leave my colleagues (which I now call friends).</description>
     </item>
     
   </channel>

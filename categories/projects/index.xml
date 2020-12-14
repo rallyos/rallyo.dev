@@ -30,5 +30,14 @@ At this time, when I find something interesting on the internet, I had to open g
       <description>Short personal story I remember the day very clear. Previous night I decided to get up early, go to Costa Coffee, and start the project. My plans were to finish it in one month, deadline that now sounds to me very optimistic, given the fact that I finished Tuesday in month and a half.</description>
     </item>
     
+    <item>
+      <title>Simplexpenses - The battle of the frameworks</title>
+      <link>https://shiftingphotons.dev/posts/simplexpenses/</link>
+      <pubDate>Thu, 24 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://shiftingphotons.dev/posts/simplexpenses/</guid>
+      <description>After the release of the early Bookmarko version, I started to look around for the next idea that would be interesting to be made and also to help me learn some new developer tools. That&amp;rsquo;s why my approach was more &amp;ldquo;Let&amp;rsquo;s see how this will work&amp;rdquo; than to make a full working app.</description>
+    </item>
+    
   </channel>
 </rss>
