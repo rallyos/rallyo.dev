@@ -10,8 +10,8 @@
         "links": [
             { "name": "GitHub", "url": "https://github.com/shiftingphotons" },
             { "name": "Email", "url": "mailto:dralev@shiftingphotons.dev" },
-            { "name": "Twitter", "url": "https://twitter.com/dmralev" },
-            { "name": "Last.fm", "url": "https://www.last.fm/user/polarisbg" }
+            { "name": "Twitter", "url": "https://twitter.com/shiftingphotons" },
+            { "name": "Last.fm", "url": "https://www.last.fm/user/shiftingphotons" }
         ]
     }
 }
