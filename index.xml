@@ -6,10 +6,20 @@
     <description>Recent content on Dimitar Ralev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 10 Dec 2020 14:54:16 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 09 Jan 2021 13:40:35 +0200</lastBuildDate>
     
 	<atom:link href="https://shiftingphotons.dev/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Honeypot Documentaries</title>
+      <link>https://shiftingphotons.dev/things/honeypot-documentaries/</link>
+      <pubDate>Sat, 09 Jan 2021 13:40:35 +0200</pubDate>
+      
+      <guid>https://shiftingphotons.dev/things/honeypot-documentaries/</guid>
+      <description>I love watching videos about open source engineers and their projects.
+Often I will have one of these days where it’s plain hard to motivate myself to work on my projects, or some chore (especially if it’s not that interesting and it feels more like a boring chore).</description>
+    </item>
     
     <item>
       <title>Walking at Night Videos</title>
