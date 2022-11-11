@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>featured on Dimitar Ralev</title>
-    <link>https://shiftingphotons.dev/categories/featured/</link>
+    <link>https://rallyo.dev/categories/featured/</link>
     <description>Recent content in featured on Dimitar Ralev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 28 Nov 2020 19:51:09 +0200</lastBuildDate>
     
-	<atom:link href="https://shiftingphotons.dev/categories/featured/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rallyo.dev/categories/featured/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>How I Spent My Year of Unemployment</title>
-      <link>https://shiftingphotons.dev/posts/how-i-spent-my-year-of-unemployment/</link>
+      <link>https://rallyo.dev/posts/how-i-spent-my-year-of-unemployment/</link>
       <pubDate>Sat, 28 Nov 2020 19:51:09 +0200</pubDate>
       
-      <guid>https://shiftingphotons.dev/posts/how-i-spent-my-year-of-unemployment/</guid>
+      <guid>https://rallyo.dev/posts/how-i-spent-my-year-of-unemployment/</guid>
       <description>A little more than a year ago, after a fun 5-year ride, I left Melon.
 It wasn’t a spur of the moment decision, but something that I was planning for almost 2 years. In the end it was just hard to leave my colleagues (which I now call friends).</description>
     </item>
