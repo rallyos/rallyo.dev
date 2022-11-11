@@ -5,11 +5,11 @@ name = "Gravity Assist"
 license = "MIT"
 licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE.md"
 description = ""
-homepage = "https://shiftingphotons.dev"
+homepage = "https://rallyo.dev"
 tags = []
 features = []
 min_version = "0.20"
 
 [author]
   name = "Dimitar Ralev"
-  homepage = "https://shiftingphotons.dev"
+  homepage = "https://rallyo.dev"

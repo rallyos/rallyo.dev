@@ -54,10 +54,10 @@ Next, for a while, I’ve been planning to beat Minecraft on hardcore mode (you 
 
 I didn’t think about the pandemic and checked news only at night, so I’m kind of thankful that I had the privilege not to work at that time and handle it that way — on easy mode.
 
-In May I got back to programming. I dusted off an old passion of mine — Go(lang). I used it to start working on a [simple CLI application](https://github.com/shiftingphotons/scaff) which was very fun.
+In May I got back to programming. I dusted off an old passion of mine — Go(lang). I used it to start working on a [simple CLI application](https://github.com/rallyos/scaff) which was very fun.
 
 ## Summer
-As the summer started, my productivity ramped up. I finished the GO CLI app, started [Moodytags](https://github.com/shiftingphotons/moodytags) with Hanami. Which is not on Rails for the same reason I mentioned above — it would’ve been overkill.
+As the summer started, my productivity ramped up. I finished the GO CLI app, started [Moodytags](https://github.com/rallyos/moodytags) with Hanami. Which is not on Rails for the same reason I mentioned above — it would’ve been overkill.
 
 Most importantly, that month, I started following a new workflow for my tasks, with a focus on weekly goals. This would be a separate post on itself. Part of the setup can be seen on my post [about Habitica](/things/habitica).
 
@@ -85,13 +85,13 @@ Fun times.
 ## September - October
 As the protests ended without much success, by the end of September, I got back to programming.
 
-I worked actively on [Moodytags](https://github.com/shiftingphotons/moodytags). Studied data structures and implemented them in Go. Then continued to study specific algorithms, mostly sorting. Started a [project about managing subscriptions](https://github.com/shiftingphotons/subalogue), which was in my plans for a long time.  
+I worked actively on [Moodytags](https://github.com/rallyos/moodytags). Studied data structures and implemented them in Go. Then continued to study specific algorithms, mostly sorting. Started a [project about managing subscriptions](https://github.com/rallyos/subalogue), which was in my plans for a long time.  
 I also started reading [The Well-Grounded Rubyist](https://www.goodreads.com/book/show/3892688-the-well-grounded-rubyist) to refresh more of my Ruby knowledge.
 
 ## November
 In November I finally thought of a new nickname/pseudonym that I like, and can use in various places where I don’t want to put my name. I happily renamed most of my handles online and this site.
 
-I also finished the MVP of the two projects that I was working on. [Moodytags](https://github.com/shiftingphotons/moodytags), for now, will be a second priority, while [Subalogue](https://github.com/shiftingphotons/subalogue) will receive most of my attention in the future because it’s something that I’m more passionate about.
+I also finished the MVP of the two projects that I was working on. [Moodytags](https://github.com/rallyos/moodytags), for now, will be a second priority, while [Subalogue](https://github.com/rallyos/subalogue) will receive most of my attention in the future because it’s something that I’m more passionate about.
 
 Algorithms and data structures are on pause for now because I couldn’t spare time for this. I will be back on them soon because I like learning them.
 
