@@ -2,3 +2,4 @@ public
 *.swp
 *.DS_STORE
 *.Ulysses*
+.hugo_build.lock
