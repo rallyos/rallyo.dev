@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>projects on Dimitar Ralev</title>
-    <link>https://rallyo.dev/categories/projects/</link>
+    <link>https://rallyo.io/categories/projects/</link>
     <description>Recent content in projects on Dimitar Ralev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 17 Oct 2013 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://rallyo.dev/categories/projects/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rallyo.io/categories/projects/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Bookmarko - Learning by doing</title>
-      <link>https://rallyo.dev/posts/bookmarko/</link>
+      <link>https://rallyo.io/posts/bookmarko/</link>
       <pubDate>Thu, 17 Oct 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://rallyo.dev/posts/bookmarko/</guid>
+      <guid>https://rallyo.io/posts/bookmarko/</guid>
       <description>Months before I started Tuesday(The WordPress theme), I was thinking about ideas for a serious project and most of the time the word that was coming to my mind was Bookmarking.
 At this time, when I find something interesting on the internet, I had to open gmail and send the links to myself.</description>
     </item>
     
     <item>
       <title>On making Tuesday from the second try</title>
-      <link>https://rallyo.dev/posts/tuesday/</link>
+      <link>https://rallyo.io/posts/tuesday/</link>
       <pubDate>Fri, 04 Oct 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://rallyo.dev/posts/tuesday/</guid>
+      <guid>https://rallyo.io/posts/tuesday/</guid>
       <description>Short personal story I remember the day very clear. Previous night I decided to get up early, go to Costa Coffee, and start the project. My plans were to finish it in one month, deadline that now sounds to me very optimistic, given the fact that I finished Tuesday in month and a half.</description>
     </item>
     
     <item>
       <title>Simplexpenses - The battle of the frameworks</title>
-      <link>https://rallyo.dev/posts/simplexpenses/</link>
+      <link>https://rallyo.io/posts/simplexpenses/</link>
       <pubDate>Thu, 24 Jan 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://rallyo.dev/posts/simplexpenses/</guid>
+      <guid>https://rallyo.io/posts/simplexpenses/</guid>
       <description>After the release of the early Bookmarko version, I started to look around for the next idea that would be interesting to be made and also to help me learn some new developer tools. That&amp;rsquo;s why my approach was more &amp;ldquo;Let&amp;rsquo;s see how this will work&amp;rdquo; than to make a full working app.</description>
     </item>
     
