@@ -1,6 +1,6 @@
 +++
 title       = "Dark Souls"
-images      =  ["https://img.youtube.com/vi/o1780AqAa20/maxresdefault.jpg"]
+images      = ["https://img.youtube.com/vi/o1780AqAa20/maxresdefault.jpg"]
 date        = 2022-08-21T16:00:43+02:00
 issue       = "2021-33"
 +++

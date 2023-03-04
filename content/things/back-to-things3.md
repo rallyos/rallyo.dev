@@ -1,6 +1,6 @@
 +++
 title       = "Back to Things 3"
-images      =  []
+images      =  ["/img/things.png"]
 date        = 2022-12-30T20:21:43+02:00
 issue       = "2021-36"
 +++

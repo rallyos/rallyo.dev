@@ -5,7 +5,7 @@ date        = 2020-12-10T08:26:01+02:00
 issue       = "2020-49"
 +++
 
-![Bear Screenshot](/img/bear-macOS-Screenshot 1.png)
+![Bear Screenshot](/img/bear-macOS-Screenshot-1.png)
 
 I remember [Bear](https://bear.app) was getting popular at the time that Evernote had its first massive pushback.
 
