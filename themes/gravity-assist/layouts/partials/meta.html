@@ -16,12 +16,12 @@
   {{ else if .IsPage }}
   <title>{{ .Site.Title }} | Thing of the week ({{ .Params.Issue }}) — {{ .Title }}</title>
   {{ end }}
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,300i,400,400i,500,500i" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
   {{ $css := resources.Get "css/main.css" }}
   {{ $style := $css | resources.Minify }}
   <link rel="stylesheet" href="{{ $style.Permalink }}">
-  <link href="/fonts/fa/css/fontawesome.min.css" rel="stylesheet">
-  <link href="/fonts/fa/css/duotone.min.css" rel="stylesheet">
-  <link href="/fonts/fa/css/light.min.css" rel="stylesheet">
 </head>

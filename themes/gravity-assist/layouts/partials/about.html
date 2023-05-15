@@ -7,22 +7,23 @@
   </h1>
   <ul class="featured">
     <li class="featured-box">
+      {{ range $.Site.Data }}
+          {{ partial "public-work.html" . }}
+      {{ end  }}
+    </li>
+    <li class="featured-box">
       <div class="thing-of-week">
-        <i class="fad fa-sunglasses front-icon"></i>
         {{ with $.Site.GetPage "things" }}
-        <h4 class="featured-heading"><a class="article-link" href="{{ .RelPermalink }}">Thing of the week</a></h4>
+        <h3 class="featured-heading"><a href="{{ .RelPermalink }}">thing of the week</a></h3>
         {{ end }}
         {{ range first 1 (where site.Pages.ByDate.Reverse "Section" "things") }}
-          <a class="article-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
+            <h3 class="thing-of-week-title"><a class="article-link" href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+            <h4 class="thing-of-week-issue">( {{ .Params.Issue }} )</h4>
         {{ end }}
       </div>
       {{ range $.Site.Data }}
           {{ partial "work.html" . }}
       {{ end  }}
-    </li>
-    <li class="featured-box">
-      <i class="fal fa-star-shooting front-icon"></i>
-      {{ partial "featured-article.html" . }}
     </li>
   </ul>
 </section>

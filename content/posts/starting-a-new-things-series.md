@@ -1,14 +1,14 @@
 +++
 title       = "Starting a new “Things” series"
 date        = 2020-05-24
-categories  = ["personal"]
+categories  = ["free-form"]
 slug        = ""
-summary     = "It’s probably hard to count how many services are out there on the internet, for the sole purpose of sharing interesting links (they will even reward you with some kind of cute virtual) and yet, I decided to start a weekly article series on doing the exact same thing, here…"
+summary     = "It's probably hard to count how many services are out there on the internet, for the sole purpose of sharing interesting links (they will even reward you with some kind of cute virtual points)."
 +++
 
 {{< figure src="/img/joshua-coleman-fXls-tVemno-unsplash.jpg" alt="An image of many many yellow toy ducks" caption="Photo by [Joshue Coleman](https://google.co://unsplash.com/@joshstyle) on Unsplash">}}
 
-It's probably hard to count how many services are out there on the internet, for the sole purpose of sharing interesting links (they will even reward you with some kind of cute virtual points) and yet, I decided to start a weekly article series on doing the exact same thing, here\...
+It's probably hard to count how many services are out there on the internet, for the sole purpose of sharing interesting links (they will even reward you with some kind of cute virtual points). And yet, I decided to start a weekly article series on doing the exact same thing, here\...
 
 I used to spend a huge amount of time going through my email newsletters, various subreddits, twitter, which in return often resulted in unhealthy amount of open browser tabs with things I had to check, but rarely had the time or the desire to actually do. I loved to share interesting content(science news, articles, funny videos, whatever I find that's worth the check), _If you were in my circle of friends and I knew your interests, chance is very high that you received something from me, at least on a weekly basis._
 

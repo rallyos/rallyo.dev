@@ -22,7 +22,7 @@
     {{ end }}
     </div>
     <div class="list-posts-box">
-        {{ range .Data.Pages.ByDate.Reverse }}
+        {{ range (.Paginate .Data.Pages.ByDate.Reverse).Pages }}
           <article class="list-posts-item">
             <div class="list-posts-item-summary">
               <h4 class="list-posts-item-title"><a class="article-link" href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
@@ -32,6 +32,7 @@
           </article>
         {{ end }}
     </div>
+    {{ template "_internal/pagination.html" . }}
   </section>
   {{ partial "footer.html" . }}
   {{ partial "bridge.html" . }}

@@ -1,5 +1,8 @@
 baseURL = "https://rallyo.io"
 languageCode = "en-us"
 title = "Dimitar Ralev"
-summaryLength = 35
+summaryLength = 20
 theme = "gravity-assist"
+
+[permalinks]
+  preserveTaxonomyNames = true

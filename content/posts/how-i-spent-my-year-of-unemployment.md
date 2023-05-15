@@ -1,7 +1,7 @@
 +++
 title       = "How I Spent My Year of Unemployment"
 date        = 2020-11-28T19:51:09+02:00
-categories  = ["personal", "featured"]
+categories  = ["free-form", "featured"]
 slug        = ""
 +++
 

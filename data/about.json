@@ -1,8 +1,16 @@
 {
-    "work": {
-        "title": "Recently working on",
+    "public_work": {
+        "title": "public work",
         "links": [
-            { "name": "Subalogue", "url": "https://subalogue.app" }
+            { "name": "kotaicode/resource-booking-operator", "url": "https://subalogue.app" },
+            { "name": "rallyos/subalogue", "url": "https://subalogue.app" },
+            { "name": "rallyos/earl", "url": "https://subalogue.app" }
+        ]
+    },
+    "work": {
+        "title": "recommended read",
+        "links": [
+            { "name": "How I Spent My Year of Unemployment", "url": "posts/how-i-spent-my-year-of-unemployment/" }
         ]
     },
     "networks": {

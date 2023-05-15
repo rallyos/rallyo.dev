@@ -1,7 +1,7 @@
 +++
 date        = "2013-10-04"
 title       = "On making Tuesday from the second try"
-categories  = ["projects"]
+categories  = ["bits & bytes"]
 slug        = "tuesday"
 +++
 

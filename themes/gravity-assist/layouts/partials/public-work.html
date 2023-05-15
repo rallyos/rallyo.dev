@@ -1,0 +1,12 @@
+<div class="public-work-box">
+    <h3 class="featured-heading">{{ .public_work.title }}</h3>
+    <ul class="public-work-list">
+    {{ range .public_work.links }}
+        <li> <a rel='noopener noreferrer' href="{{ .url }}" target="_blank">✩ {{ .name }}</a> </li>
+    {{ end }}
+    </ul>
+</div>
+<div class="current-focus">
+    <h3 class="featured-heading">current focus</h3>
+    <a rel='noopener noreferrer' href="">giving this place a facelift</a>
+</div>
