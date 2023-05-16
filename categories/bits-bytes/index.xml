@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bits &amp; bytes on Dimitar Ralev</title>
+    <link>https://rallyo.io/categories/bits-bytes/</link>
+    <description>Recent content in bits &amp; bytes on Dimitar Ralev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 17 Oct 2013 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://rallyo.io/categories/bits-bytes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bookmarko - Learning by doing</title>
+      <link>https://rallyo.io/posts/bookmarko/</link>
+      <pubDate>Thu, 17 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://rallyo.io/posts/bookmarko/</guid>
+      <description>Months before I started Tuesday(The WordPress theme), I was thinking about ideas for a serious project and most of the time the word that was coming to my mind was Bookmarking.</description>
+    </item>
+    
+    <item>
+      <title>On making Tuesday from the second try</title>
+      <link>https://rallyo.io/posts/tuesday/</link>
+      <pubDate>Fri, 04 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://rallyo.io/posts/tuesday/</guid>
+      <description>Short personal story I remember the day very clear. Previous night I decided to get up early, go to Costa Coffee, and start the project.</description>
+    </item>
+    
+    <item>
+      <title>Simplexpenses - The battle of the frameworks</title>
+      <link>https://rallyo.io/posts/simplexpenses/</link>
+      <pubDate>Thu, 24 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://rallyo.io/posts/simplexpenses/</guid>
+      <description>After the release of the early Bookmarko version, I started to look around for the next idea that would be interesting to be made and also to help me learn some new developer tools.</description>
+    </item>
+    
+  </channel>
+</rss>

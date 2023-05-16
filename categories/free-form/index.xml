@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>free-form on Dimitar Ralev</title>
+    <link>https://rallyo.io/categories/free-form/</link>
+    <description>Recent content in free-form on Dimitar Ralev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 28 Nov 2020 19:51:09 +0200</lastBuildDate>
+    
+	<atom:link href="https://rallyo.io/categories/free-form/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How I Spent My Year of Unemployment</title>
+      <link>https://rallyo.io/posts/how-i-spent-my-year-of-unemployment/</link>
+      <pubDate>Sat, 28 Nov 2020 19:51:09 +0200</pubDate>
+      
+      <guid>https://rallyo.io/posts/how-i-spent-my-year-of-unemployment/</guid>
+      <description>A little more than a year ago, after a fun 5-year ride, I left Melon.
+It wasn’t a spur of the moment decision, but something that I was planning for almost 2 years.</description>
+    </item>
+    
+    <item>
+      <title>Starting a new “Things” series</title>
+      <link>https://rallyo.io/posts/starting-a-new-things-series/</link>
+      <pubDate>Sun, 24 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://rallyo.io/posts/starting-a-new-things-series/</guid>
+      <description>It&amp;rsquo;s probably hard to count how many services are out there on the internet, for the sole purpose of sharing interesting links (they will even reward you with some kind of cute virtual points).</description>
+    </item>
+    
+    <item>
+      <title>The spirit of 2014 - Warpaint</title>
+      <link>https://rallyo.io/posts/warpaint/</link>
+      <pubDate>Wed, 31 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://rallyo.io/posts/warpaint/</guid>
+      <description>I remember that I first heard Warpaint early this year. I assume that I just followed some pitchfork link to their new single, maybe because I thought that their name is cool.</description>
+    </item>
+    
+  </channel>
+</rss>

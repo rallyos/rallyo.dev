@@ -4,13 +4,33 @@
   
   <url>
     <loc>https://rallyo.io/things/</loc>
-    <lastmod>2023-03-04T13:54:26+02:00</lastmod>
+    <lastmod>2023-04-09T14:37:12+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://rallyo.io/things/brazil/</loc>
+    <lastmod>2023-04-09T14:37:12+03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://rallyo.io/</loc>
-    <lastmod>2023-03-04T13:54:26+02:00</lastmod>
+    <lastmod>2023-04-09T14:37:12+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rallyo.io/things/song-exploder-the-cranberries/</loc>
+    <lastmod>2023-04-09T14:27:21+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rallyo.io/things/diablo4-beta/</loc>
+    <lastmod>2023-04-09T13:55:47+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://rallyo.io/things/taxi-driver-soundtrack/</loc>
+    <lastmod>2023-04-09T13:25:04+03:00</lastmod>
   </url>
   
   <url>
@@ -625,12 +645,12 @@
   </url>
   
   <url>
-    <loc>https://rallyo.io/posts/how-i-spent-my-year-of-unemployment/</loc>
+    <loc>https://rallyo.io/categories/free-form/</loc>
     <lastmod>2020-11-28T19:51:09+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rallyo.io/categories/personal/</loc>
+    <loc>https://rallyo.io/posts/how-i-spent-my-year-of-unemployment/</loc>
     <lastmod>2020-11-28T19:51:09+02:00</lastmod>
   </url>
   
@@ -775,12 +795,12 @@
   </url>
   
   <url>
-    <loc>https://rallyo.io/posts/bookmarko/</loc>
+    <loc>https://rallyo.io/categories/bits-bytes/</loc>
     <lastmod>2013-10-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rallyo.io/categories/projects/</loc>
+    <loc>https://rallyo.io/posts/bookmarko/</loc>
     <lastmod>2013-10-17T00:00:00+00:00</lastmod>
   </url>
   
