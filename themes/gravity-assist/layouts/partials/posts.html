@@ -1,23 +1,15 @@
 <section class="posts">
-	{{ range $key, $taxonomy := .Site.Taxonomies.categories.Alphabetical.Reverse }}
-  {{ if not (eq $taxonomy.Name "featured") }}
+	{{ range .Site.Taxonomies.categories.Alphabetical }}
+  {{ if not (eq .Page.Name "featured") }}
   <div class="posts-list">
-    <h3 class="posts-category">
-      {{ if eq $taxonomy.Name "projects" }}
-      <i class="fad fa-brackets-curly posts-icon"></i>
-      {{ else if eq $taxonomy.Name "personal" }}
-      <i class="fal fa-typewriter posts-icon"></i>
-      {{ end }}
-      {{ $taxonomy.Name }}
-    </h3>
-    {{ range first 2 (where $taxonomy.Pages.ByDate.Reverse "Section" "posts") }}
+    <h2 class="posts-category">
+      {{ .Page.Title }}
+    </h2>
+    {{ range first 3 (where .Page.Pages.ByDate.Reverse "Section" "posts") }}
       <article class="article-box">
         <div class="article-summary">
-          <h4><a class="article-link" href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
+          <h3><a class="article-link" href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
           <p class="article-summary-text">{{ .Summary }}</p>
-        </div>
-        <div class="read-more-link">
-          <a href="{{ .RelPermalink }}">Read More…</a>
         </div>
       </article>
     {{ end }}

@@ -7,22 +7,47 @@
   </h1>
   <ul class="featured">
     <li class="featured-box">
-      <div class="thing-of-week">
-        <i class="fad fa-sunglasses front-icon"></i>
-        {{ with $.Site.GetPage "things" }}
-        <h4 class="featured-heading"><a class="article-link" href="{{ .RelPermalink }}">Thing of the week</a></h4>
-        {{ end }}
-        {{ range first 1 (where site.Pages.ByDate.Reverse "Section" "things") }}
-          <a class="article-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
-        {{ end }}
-      </div>
       {{ range $.Site.Data }}
-          {{ partial "work.html" . }}
+        <div class="featured-box-content">
+            <h3 class="featured-heading">{{ .public_work.title }}</h3>
+            <ul class="public-work-list">
+            {{ range .public_work.links }}
+                <li> <a rel='noopener noreferrer' href="{{ .url }}" target="_blank">✩ {{ .name }}</a> </li>
+            {{ end }}
+            </ul>
+        </div>
+        {{ range $.Site.Data }}
+        <div class="featured-box-content">
+            <h3 class="featured-heading">{{ .current_focus.title }}</h3>
+            <a class="featured-heading-link" rel='noopener noreferrer' href="{{ .current_focus.focus.url }}">{{ .current_focus.focus.name }}</a>
+        </div>
+        {{ end  }}
       {{ end  }}
     </li>
     <li class="featured-box">
-      <i class="fal fa-star-shooting front-icon"></i>
-      {{ partial "featured-article.html" . }}
+      <div class="featured-box-content">
+        {{ with $.Site.GetPage "things" }}
+        <h3 class="featured-heading">thing of the week</h3>
+        {{ end }}
+        {{ range first 1 (where site.Pages.ByDate.Reverse "Section" "things") }}
+            <h3 class="thing-of-week-title"><a class="featured-heading-link article-link" href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+            <h4 class="thing-of-week-issue">( {{ .Params.Issue }} )</h4>
+        {{ end }}
+      </div>
+      {{ range $.Site.Data }}
+        {{ $links_length := (len .work.links)  }}
+        <div class="featured-box-content">
+          <h3 class="featured-heading">{{ .work.title }}</h3>
+            <div>
+            {{ range $index, $element := .work.links }}
+                <a class="featured-heading-link" rel='noopener noreferrer' href="{{ .url }}">{{ .name }}</a>
+                {{ if not (eq (add $index 1) $links_length) }}
+                <span> · </span>
+                {{ end }}
+            {{ end }}
+            </div>
+        </div>
+      {{ end  }}
     </li>
   </ul>
 </section>

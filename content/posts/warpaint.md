@@ -1,7 +1,7 @@
 +++
 date        = "2014-12-31"
 title       = "The spirit of 2014 - Warpaint"
-categories  = ["personal"]
+categories  = ["free-form"]
 slug        = "warpaint"
 +++
 
