@@ -1,0 +1,31 @@
+<section class="about">
+  <h1 class="about-heading">
+    Hey 👋 I write <a class="about-heading-link" rel="noopener noreferrer"  href="https://github.com/rallyos" target="_blank">software</a>.
+    {{ with $.Site.GetPage "things" }}
+    I also write about <a class="about-heading-link" href="{{ .RelPermalink }}">things</a>.
+    {{ end }}
+  </h1>
+  <ul class="featured">
+    <li class="featured-box">
+
+      {{ range $.Site.Data }}
+        {{ partial "about/public-work.html" . }}
+      {{ end  }}
+
+      {{ range $.Site.Data }}
+        {{ partial "about/current-focus.html" . }}
+      {{ end  }}
+
+    </li>
+
+    <li class="featured-box">
+      {{ range $.Site.Data }}
+        {{ partial "about/thing-of-week.html" . }}
+      {{ end  }}
+
+      {{ range $.Site.Data }}
+        {{ partial "about/recommended-read.html" . }}
+      {{ end  }}
+    </li>
+  </ul>
+</section>

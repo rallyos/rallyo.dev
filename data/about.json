@@ -2,9 +2,10 @@
     "public_work": {
         "title": "public work",
         "links": [
-            { "name": "kotaicode/resource-booking-operator", "url": "https://subalogue.app" },
-            { "name": "rallyos/subalogue", "url": "https://subalogue.app" },
-            { "name": "rallyos/earl", "url": "https://subalogue.app" }
+            { "name": "kotaicode/resource-booking-operator", "url": "https://github.com/kotaicode/resource-booking-operator" },
+            { "name": "rallyos/subalogue", "url": "https://github.com/rallyos/subalogue" },
+            { "name": "rallyos/earl", "url": "https://github.com/rallyos/earl" },
+            { "name": "...and a bunch of abandoned passion projects", "url": "https://github.com/rallyos?tab=repositories&q=&type=archived" }
         ]
     },
     "current_focus": {

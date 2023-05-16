@@ -1,0 +1,7 @@
+<div class="featured-box-content">
+    <h3 class="featured-heading">thing of the week</h3>
+    {{ range first 1 (where site.Pages.ByDate.Reverse "Section" "things") }}
+        <h3 class="thing-of-week-title"><a class="featured-heading-link article-link" href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        <h4 class="thing-of-week-issue">({{ .Params.Issue }})</h4>
+    {{ end }}
+</div>

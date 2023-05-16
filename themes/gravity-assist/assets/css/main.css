@@ -202,7 +202,7 @@ a:hover {
   text-decoration: underline;
 }
 .article-summary-text {
-  font-size: 0.95em;
+  font-size: 1.05em;
   height: 80px;
 }
 .more-posts-box {
@@ -269,7 +269,7 @@ a:hover {
 }
 .thing-of-week-title, .thing-of-week-issue {
     font-family: 'Inconsolata', monospace;
-    margin: 5px;
+    margin: 0 0 5px;
 }
 .thing-of-week-issue {
     cursor: default;
@@ -287,7 +287,7 @@ a:hover {
 }
 .content-wrap {
   max-width: 1080px;
-  width: 90%;
+  width: 98%;
   margin: 0 auto;
 }
 .content-wrap p {
@@ -308,6 +308,7 @@ a:hover {
   max-width: 100%;
 }
 #content p {
+  font-size: 1.15em;
   margin: 1.4em 0;
 }
 #content p > img {
@@ -330,12 +331,18 @@ a:hover {
   margin-left: 20px;
 }
 .list-posts-box {
+  display: flex;
   margin: 40px 0;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 .list-posts-item {
+  width: 46%;
+  margin: 0 auto;
   text-align: center;
 }
 .list-posts-item-summary {
+  font-size: 1.05em;
   margin: 25px 0;
 }
 .list-posts-item-title {
@@ -345,6 +352,7 @@ a:hover {
   margin-top: 5px;
 }
 .things-introduction {
+  font-size: 1.1em;
   margin-top: 2em;
 }
 .featured-things-wrapper {
@@ -366,8 +374,9 @@ a:hover {
 .featured-thing-title,
 .featured-thing-issue {
   width: 90%;
+  font-family: 'Inconsolata', monospace;
   display: inline-block;
-  margin: 0;
+  margin: 0 0 10px;
 }
 .pagination {
     width: 20%;

@@ -1,0 +1,16 @@
+<div class="featured-box-content">
+    <h3 class="featured-heading">{{ .public_work.title }}</h3>
+    <ul class="public-work-list">
+    {{ range $index, $item := .public_work.links }}
+        <li>
+            <a rel='noopener noreferrer' href="{{ .url }}" target="_blank">
+                {{ if lt $index 3 }}
+                ✩ {{ .name }}
+                {{ else }}
+                  {{ .name }}
+                {{ end }}
+            </a>
+        </li>
+    {{ end }}
+    </ul>
+</div>
