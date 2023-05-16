@@ -7,6 +7,12 @@
             { "name": "rallyos/earl", "url": "https://subalogue.app" }
         ]
     },
+    "current_focus": {
+        "title": "current focus",
+        "focus": {
+            "name": "giving this page a facelift", "url": "#"
+        }
+    },
     "work": {
         "title": "recommended read",
         "links": [

@@ -25,8 +25,8 @@
         {{ range (.Paginate .Data.Pages.ByDate.Reverse).Pages }}
           <article class="list-posts-item">
             <div class="list-posts-item-summary">
-              <h4 class="list-posts-item-title"><a class="article-link" href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
-              <h5 class="list-posts-item-date"> {{ .Params.issue }} </h5>
+              <h3 class="list-posts-item-title"><a class="article-link" href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
+              <h4 class="list-posts-item-date"> {{ .Params.issue }} </h5>
               {{ .Summary }}
             </div>
           </article>

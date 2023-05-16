@@ -1,3 +1,33 @@
+@font-face {
+    font-family: 'Inconsolata';
+    src: url('/font/Inconsolata-VariableFont_wdth,wght.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Avenir';
+    src: url('/font/AvenirLight.ttf') format('opentype');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Avenir';
+    src: url('/font/AvenirBook.ttf') format('opentype');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Avenir';
+    src: url('/font/AvenirRegular.ttf') format('opentype');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Avenir';
+    src: url('/font/AvenirHeavy.ttf') format('opentype');
+    font-weight: 900;
+}
+@font-face {
+    font-family: 'Avenir';
+    src: url('/font/AvenirBlack.ttf') format('opentype');
+    font-weight: 1000;
+}
+
 body {
   font-family: 'Inconsolata', monospace;
   color: #FBF9F4;
@@ -208,53 +238,37 @@ a:hover {
   width: 48%;
   text-align: center;
 }
-.public-work-box, .current-focus { /* TODO change name */
+.featured-box-content {
     height: 160px;
     margin: 0 auto 20px;
     padding: 0 1em;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
 }
-.public-work-box h3 {
+.featured-heading {
     font-size: 1.4em;
     font-weight: 900;
     letter-spacing: 0.05em;
+    cursor: default;
 }
-.current-focus a {
-    font-size: 1.3em;
+.featured-heading-link {
+    font-size: 1.15em;
     font-weight: 500;
 }
-.day .public-work-box h3 {
+.day .featured-heading {
     border-top: solid 3px #343534;
     border-bottom: solid 3px #343534;
 }
-.night .public-work-box h3 {
+.night .featured-heading {
     border-top: solid 3px #FBF9F4;
     border-bottom: solid 3px #FBF9F4;
 }
 .public-work-list {
-  text-align: left; /* TODO Remove */
+  text-align: left;
   font-size: 1.15em;
 }
-.thing-of-week, .recent-work {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  height: 160px;
-  padding: 0 1em;
-  margin-bottom: 20px;
-}
-.thing-of-week .article-link, .recent-work a {
-  font-size: 1.3em;
-  font-weight: 500;
-}
-.featured-heading {
-  font-size: 1.4em;
-  font-weight: 900;
-  letter-spacing: 0.05em;
-}
 .thing-of-week-title, .thing-of-week-issue {
+    font-family: 'Inconsolata', monospace;
     margin: 5px;
 }
 .thing-of-week-issue {
