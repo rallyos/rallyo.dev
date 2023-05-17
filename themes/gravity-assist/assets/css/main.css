@@ -427,29 +427,26 @@ footer {
   nav {
     padding: 0 20px;
   }
-  .featured-article-box {
-    padding: 0 20px;
-  }
   .posts-list {
     padding: 0 8px;
   }
 }
 
 @media screen and (max-width: 980px) {
-  nav {
-    padding: 0 20px;
-  }
-  .featured-article-box {
-    padding: 0 20px;
-  }
   body {
     font-size: 0.85em;
+  }
+  #logo {
+    height: 50px;
   }
 }
 
 @media screen and (max-width: 768px) {
+  .content-wrap {
+    width: 94%;
+  }
   .nav-list-item {
-    font-size: 1.6em;
+    font-size: 2em;
     word-spacing: -8px;
   }
   .circle {
@@ -464,27 +461,29 @@ footer {
     line-height: 25px;
   }
   body {
-    font-size: 0.8em;
+    font-size: 0.75em;
   }
 }
 @media screen and (max-width: 600px) {
+  .list-posts-item {
+      width: 96%;
+  }
+  .featured-things-wrapper {
+      flex-direction: column;
+      margin: 2em 0 2em;
+  }
+  .featured-thing {
+      width: 80%;
+      margin: 5px auto;
+  }
+  .featured-thing-headings {
+      text-align: center;
+  }
   .day-night-block {
     padding-top: 3px;
   }
-  .featured {
-    flex-direction: column-reverse;
-  }
   .featured-box {
     width: 100%;
-  }
-  .featured-heading {
-    margin: 20px 0 25px;
-  }
-  .thing-of-week, .recent-work {
-    margin-bottom: 20px;
-  }
-  .featured-article-box {
-    margin-bottom: 20px;
   }
   .posts {
     justify-content: space-around;
