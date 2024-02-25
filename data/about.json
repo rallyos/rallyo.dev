@@ -1,21 +1,21 @@
 {
     "public_work": {
-        "title": "public work",
+        "title": "🌐 public work",
         "links": [
             { "name": "kotaicode/resource-booking-operator", "url": "https://github.com/kotaicode/resource-booking-operator" },
             { "name": "rallyos/subalogue", "url": "https://github.com/rallyos/subalogue" },
             { "name": "rallyos/earl", "url": "https://github.com/rallyos/earl" },
-            { "name": "...and a bunch of abandoned passion projects", "url": "https://github.com/rallyos?tab=repositories&q=&type=archived" }
+            { "name": "...and abandoned passion projects", "url": "https://github.com/rallyos?tab=repositories&q=&type=archived" }
         ]
     },
     "current_focus": {
-        "title": "current focus",
+        "title": "🕒 current focus",
         "focus": {
             "name": "giving this page a facelift", "url": "#"
         }
     },
     "work": {
-        "title": "recommended read",
+        "title": "🔖 recommended read",
         "links": [
             { "name": "How I Spent My Year of Unemployment", "url": "posts/how-i-spent-my-year-of-unemployment/" }
         ]

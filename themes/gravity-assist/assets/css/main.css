@@ -240,13 +240,15 @@ a:hover {
 }
 .featured-box-content {
     height: 160px;
-    margin: 0 auto 20px;
+    margin: 0 auto 50px;
     padding: 0 1em;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .featured-heading {
     font-size: 1.4em;
+    padding: 0 50px;
     font-weight: 900;
     letter-spacing: 0.05em;
     cursor: default;
@@ -256,11 +258,9 @@ a:hover {
     font-weight: 500;
 }
 .day .featured-heading {
-    border-top: solid 3px #343534;
     border-bottom: solid 3px #343534;
 }
 .night .featured-heading {
-    border-top: solid 3px #FBF9F4;
     border-bottom: solid 3px #FBF9F4;
 }
 .public-work-list {
@@ -275,11 +275,9 @@ a:hover {
     cursor: default;
 }
 .day .featured-heading {
-    border-top: solid 3px #343534;
     border-bottom: solid 3px #343534;
 }
 .night .featured-heading {
-    border-top: solid 3px #FBF9F4;
     border-bottom: solid 3px #FBF9F4;
 }
 .article-heading {

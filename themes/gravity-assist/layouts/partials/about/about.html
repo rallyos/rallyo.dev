@@ -13,14 +13,14 @@
       {{ end  }}
 
       {{ range $.Site.Data }}
-        {{ partial "about/current-focus.html" . }}
+        {{ partial "about/thing-of-week.html" . }}
       {{ end  }}
 
     </li>
 
     <li class="featured-box">
       {{ range $.Site.Data }}
-        {{ partial "about/thing-of-week.html" . }}
+        {{ partial "about/current-focus.html" . }}
       {{ end  }}
 
       {{ range $.Site.Data }}
